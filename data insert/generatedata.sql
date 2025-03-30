@@ -1,480 +1,2151 @@
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7894,"Stephen Malone"),
-  (6485,"Griffin Chen"),
-  (318,"Demetrius Schwartz"),
-  (794,"Jelani Bell"),
-  (2453,"Steven Powers"),
-  (7070,"Hedy Rodriguez"),
-  (9839,"Justin Hobbs"),
-  (6719,"Brenden Estrada"),
-  (1820,"Lani Walter"),
-  (2742,"Belle Lindsay");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (5069,"Melodie Golden"),
-  (5058,"Garrett Le"),
-  (9832,"Blossom Robbins"),
-  (6721,"Keely Hubbard"),
-  (6454,"Caldwell Rush"),
-  (4294,"Demetria Riley"),
-  (1410,"Jason Buck"),
-  (2203,"Gray Charles"),
-  (231,"Vivian Mayer"),
-  (6480,"Xyla Mayer");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (6283,"Ivan Mcbride"),
-  (7207,"Jack Mcbride"),
-  (556,"Alika Vasquez"),
-  (6622,"Armando Christensen"),
-  (975,"Desiree Moran"),
-  (1695,"Rae Leblanc"),
-  (989,"Kristen Beach"),
-  (3859,"Elliott Rogers"),
-  (6205,"Troy Gonzalez"),
-  (8128,"Charlotte Stanton");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (116,"Keegan Reyes"),
-  (5935,"Desirae Griffin"),
-  (6967,"Ferdinand Livingston"),
-  (9904,"Harriet Levy"),
-  (4186,"Serina Goff"),
-  (4405,"Hilel Stanton"),
-  (9081,"Quemby Vang"),
-  (3657,"Lani Howard"),
-  (5035,"Blythe Valdez"),
-  (3214,"Amy Snider");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (969,"Chanda Estrada"),
-  (6790,"Jamalia Mathis"),
-  (7768,"Cody Dunlap"),
-  (527,"Addison Pitts"),
-  (5169,"Ivan Lowe"),
-  (2499,"Emily Mckenzie"),
-  (848,"Jenette Kemp"),
-  (1134,"Lee Wilder"),
-  (293,"Josiah Heath"),
-  (2621,"Remedios Chan");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (6276,"Igor Armstrong"),
-  (326,"Brendan Stout"),
-  (8397,"Octavius Gray"),
-  (3340,"Echo Kaufman"),
-  (8510,"Cathleen Williams"),
-  (9664,"Desiree Pena"),
-  (8678,"Rinah Richardson"),
-  (7062,"Dante James"),
-  (9679,"Nasim Ware"),
-  (9378,"Urielle Small");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (2666,"Ebony Stark"),
-  (822,"Ariel Beach"),
-  (4029,"Shaine Dickerson"),
-  (7229,"Maile Browning"),
-  (9272,"Pandora Conrad"),
-  (198,"Cameron Navarro"),
-  (8992,"Chelsea Hines"),
-  (593,"Piper Joyce"),
-  (9463,"Jessica Rodriguez"),
-  (7809,"Blake Welch");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9502,"Flynn Franco"),
-  (2004,"Adam Matthews"),
-  (6522,"Bo Kane"),
-  (2708,"Regan Bridges"),
-  (5027,"Raya Navarro"),
-  (2620,"Ocean Stout"),
-  (3559,"Zoe Greene"),
-  (3682,"Brooke Pollard"),
-  (7176,"Clarke Ewing"),
-  (8158,"Noel Morales");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (8970,"Reagan Thornton"),
-  (9893,"Kyla Rasmussen"),
-  (586,"Jelani Wolfe"),
-  (7139,"Vaughan Johnson"),
-  (7181,"Zelenia Burke"),
-  (948,"Odessa Lowery"),
-  (3290,"Katell Little"),
-  (1651,"Kelly Brown"),
-  (2631,"Mary Le"),
-  (9832,"Jarrod Mcconnell");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (3845,"Evan Smith"),
-  (2078,"Odessa Morris"),
-  (857,"Norman Crosby"),
-  (7497,"Roary Bradford"),
-  (7832,"Palmer Watts"),
-  (422,"Gavin Case"),
-  (4060,"Heidi Vaughn"),
-  (2870,"Demetria Hoffman"),
-  (3558,"Joel Weeks"),
-  (7374,"Damon Edwards");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (4529,"Perry Church"),
-  (5571,"Macaulay Solis"),
-  (9858,"Zena Gallegos"),
-  (9337,"Ezekiel Mayo"),
-  (4244,"Tatiana Woodward"),
-  (3085,"Henry Church"),
-  (8642,"Odysseus Calhoun"),
-  (5024,"Hannah Reilly"),
-  (4861,"Kenyon Puckett"),
-  (325,"Gray Castillo");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (4845,"Steven Bullock"),
-  (1060,"Garrett Collins"),
-  (7578,"Sigourney Knowles"),
-  (8502,"Breanna Sweeney"),
-  (504,"Halee Bailey"),
-  (2731,"May Snider"),
-  (4122,"Eugenia Garner"),
-  (6928,"Kai Pace"),
-  (9931,"Lynn Puckett"),
-  (3504,"Dahlia Sullivan");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (90,"Ray Wong"),
-  (748,"Fletcher Kaufman"),
-  (5346,"Shaeleigh Fuentes"),
-  (4262,"Quinn Wise"),
-  (4010,"Kennedy Valentine"),
-  (7187,"Lucian Noel"),
-  (9968,"Courtney Tran"),
-  (3475,"Clayton Hurst"),
-  (8064,"Oprah Gould"),
-  (702,"Hiroko Whitley");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (6207,"Sharon Burch"),
-  (5643,"Sonya Moran"),
-  (758,"Wesley Albert"),
-  (9603,"Tashya Savage"),
-  (7078,"Davis Leon"),
-  (396,"Dominique Sykes"),
-  (3739,"Wylie Marshall"),
-  (9182,"Latifah Ortiz"),
-  (5940,"Burke Wilcox"),
-  (7785,"Kelly Mercado");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (4570,"Caldwell Porter"),
-  (8375,"Candace Grant"),
-  (7112,"Jarrod Mcneil"),
-  (8227,"Kyla Summers"),
-  (5210,"Xaviera Chapman"),
-  (8142,"Nigel Emerson"),
-  (6894,"Wendy Harding"),
-  (6404,"Vivien Horn"),
-  (8153,"Sasha Coffey"),
-  (8058,"Martina Norton");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (2406,"Magee Hester"),
-  (6350,"Isabella Gray"),
-  (7768,"Sheila Robinson"),
-  (1332,"Guy Pugh"),
-  (8360,"Mannix Robertson"),
-  (9296,"Ainsley Battle"),
-  (3988,"Aristotle Faulkner"),
-  (5742,"Bertha Andrews"),
-  (5706,"Abra Weaver"),
-  (7435,"Cody Frost");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9537,"Derek Dawson"),
-  (8021,"Imogene Dixon"),
-  (543,"Oliver Craig"),
-  (4811,"Virginia Owen"),
-  (7466,"Megan Knowles"),
-  (1571,"Brynn Moss"),
-  (9114,"Kelsie Velez"),
-  (5802,"Audrey Gay"),
-  (996,"Brynn Matthews"),
-  (876,"Alfonso Carver");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7209,"Whilemina Castillo"),
-  (4974,"John Ratliff"),
-  (6848,"Prescott Sexton"),
-  (2053,"Lydia Gill"),
-  (8938,"Stella Powell"),
-  (3992,"Keelie Ray"),
-  (8938,"Jelani Logan"),
-  (1046,"Damian Abbott"),
-  (5926,"Regina Harrell"),
-  (473,"Jessamine Black");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (5675,"Clark Perez"),
-  (825,"Hope Martin"),
-  (8791,"Idona Keith"),
-  (5171,"Dane Talley"),
-  (6405,"Shea England"),
-  (6865,"Arsenio Franklin"),
-  (4466,"Freya Houston"),
-  (7608,"Rebekah Mosley"),
-  (2066,"Alan Mckinney"),
-  (3415,"Anjolie Moreno");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (6809,"Amelia Bird"),
-  (3654,"Nina Gay"),
-  (9223,"Cruz Brooks"),
-  (3940,"Prescott Roberts"),
-  (7437,"Noelani Compton"),
-  (1247,"Charde Carson"),
-  (4373,"Linda Sampson"),
-  (9941,"Ralph Ortiz"),
-  (6049,"Idona Osborn"),
-  (869,"Gil Head");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (8034,"Mark Ware"),
-  (4091,"Naida Glass"),
-  (297,"Philip Mcpherson"),
-  (6302,"Camden Caldwell"),
-  (8848,"Lenore Cooper"),
-  (6360,"Mona Tran"),
-  (1927,"Cullen Dickerson"),
-  (5151,"Yetta Woodard"),
-  (2006,"Dorian Barrett"),
-  (6666,"Oliver Head");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (2012,"Melissa Garrison"),
-  (9918,"Dillon Gross"),
-  (4613,"Hayley Osborn"),
-  (8553,"Orla Abbott"),
-  (5045,"Deborah Finley"),
-  (2652,"Addison Rutledge"),
-  (3402,"Tarik Barrera"),
-  (4114,"Dahlia Merritt"),
-  (7529,"Fletcher Hudson"),
-  (1825,"Winter Pate");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7531,"Pearl Hale"),
-  (1044,"Jonah Sosa"),
-  (9783,"Moses Park"),
-  (4460,"Abraham Moran"),
-  (34,"Daria Roy"),
-  (2246,"Logan Benjamin"),
-  (3869,"John Valenzuela"),
-  (3626,"Jolie Mueller"),
-  (1202,"Chloe Sampson"),
-  (8537,"Macaulay Myers");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (3832,"Farrah Humphrey"),
-  (8077,"Daquan Mccoy"),
-  (2719,"Byron Stein"),
-  (3526,"Jescie Burris"),
-  (3340,"Naida Boyle"),
-  (9884,"Lane Hebert"),
-  (3728,"Kelly Dawson"),
-  (3464,"Gisela Mclaughlin"),
-  (9094,"Kennan Hines"),
-  (3918,"Channing Stokes");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (639,"Nola Nixon"),
-  (1675,"Lillith Beck"),
-  (5199,"Lester Hendrix"),
-  (3758,"Yetta Arnold"),
-  (4666,"Selma Mccormick"),
-  (3399,"Idona Rodgers"),
-  (1095,"Megan Ewing"),
-  (7157,"Beck Mcdowell"),
-  (1024,"Reagan Hayden"),
-  (9020,"Hanna Norman");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9477,"Kameko Norris"),
-  (6410,"Jamalia Kelley"),
-  (2685,"Erica Case"),
-  (4579,"Alice Richardson"),
-  (6269,"Warren Wise"),
-  (3289,"Ariel Hampton"),
-  (7809,"Keaton Tran"),
-  (3499,"Adrienne Mayo"),
-  (3294,"Celeste Carson"),
-  (9853,"Dean Ayers");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (625,"Doris Pope"),
-  (6810,"Cameron Odom"),
-  (8361,"Ivana Gray"),
-  (8130,"Amethyst Rutledge"),
-  (8686,"Russell Coleman"),
-  (8137,"Sean Higgins"),
-  (5376,"Diana Guzman"),
-  (6669,"Dara Mcdowell"),
-  (9714,"Alexandra Wiley"),
-  (5359,"Yoshi Gallagher");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9593,"Paul Massey"),
-  (2034,"Fallon Caldwell"),
-  (6171,"Nasim Holt"),
-  (6755,"Marny Lawson"),
-  (8877,"Dahlia Patel"),
-  (9301,"Murphy Sampson"),
-  (6610,"Tashya Mccarty"),
-  (9582,"Allen Workman"),
-  (4507,"Len Suarez"),
-  (812,"Clare Bradshaw");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (5362,"Cheryl Schultz"),
-  (2169,"Rae Fitzgerald"),
-  (7328,"Scarlet Waters"),
-  (3125,"Aurelia Mann"),
-  (4345,"Calista Ayala"),
-  (8557,"Imelda Giles"),
-  (8830,"Brittany Barker"),
-  (5704,"Leilani Herrera"),
-  (3497,"Francis Vasquez"),
-  (1793,"Vernon Mccray");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (226,"Ava Nieves"),
-  (4834,"Beverly Byrd"),
-  (4101,"Shana Hooper"),
-  (4648,"Abdul Mccoy"),
-  (8400,"Nayda Hunt"),
-  (6150,"Upton Salinas"),
-  (7794,"Barclay Fisher"),
-  (9599,"Orlando Morrow"),
-  (4699,"Harrison Pruitt"),
-  (1366,"Destiny Wilson");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9570,"Quynn Thomas"),
-  (6186,"Reese Bradley"),
-  (1641,"Baxter Mendez"),
-  (836,"Kylan Padilla"),
-  (3116,"Amena Douglas"),
-  (7471,"Marvin Keller"),
-  (7001,"Cameron Briggs"),
-  (2003,"Ryan Chaney"),
-  (7976,"Davis Hubbard"),
-  (3154,"Xenos Blackburn");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7951,"Scott Simon"),
-  (3855,"Robert Schroeder"),
-  (6693,"Chava Ashley"),
-  (7067,"Nehru Bentley"),
-  (706,"Denton Barr"),
-  (4476,"Ivan Oneil"),
-  (5328,"Murphy Turner"),
-  (3556,"Cody Rhodes"),
-  (5258,"Carla Sherman"),
-  (984,"Jordan Gibbs");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9103,"Ulla Barry"),
-  (4910,"Elton Eaton"),
-  (1332,"Candace Hess"),
-  (2967,"Catherine Sosa"),
-  (6465,"Barrett Sears"),
-  (3589,"Kuame Medina"),
-  (1346,"Veda Pena"),
-  (7039,"Yardley Justice"),
-  (5129,"Kelly Fleming"),
-  (7219,"Arsenio Roberson");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (9587,"Magee Castro"),
-  (5125,"Shoshana Ratliff"),
-  (1680,"Kirsten Chaney"),
-  (5520,"Chloe Parks"),
-  (7732,"Jane Drake"),
-  (9274,"Sade Dixon"),
-  (3697,"Randall Zimmerman"),
-  (1483,"Magee Kirk"),
-  (8798,"Ebony Kirby"),
-  (5033,"Rylee Forbes");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7103,"Colin Carver"),
-  (6092,"Ashton Coleman"),
-  (4032,"Reagan Reeves"),
-  (1049,"Camilla Hunter"),
-  (7913,"Brandon Byrd"),
-  (1643,"Valentine Raymond"),
-  (4540,"Angela Miles"),
-  (61,"Jeanette Lewis"),
-  (3068,"Raja Daniel"),
-  (9121,"Ross Browning");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7786,"Micah Vasquez"),
-  (3616,"Patricia Hull"),
-  (2168,"Daphne Navarro"),
-  (4372,"Miranda Petersen"),
-  (7918,"Lillian Leblanc"),
-  (7404,"Carla West"),
-  (6034,"Amelia Mcclure"),
-  (8761,"Aquila Hale"),
-  (5769,"Athena Shaw"),
-  (5630,"Evangeline Long");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (7924,"Darrel Mclean"),
-  (7821,"Tad Mclean"),
-  (7457,"Lucian Brewer"),
-  (5476,"India Fernandez"),
-  (2093,"Adrienne Forbes"),
-  (8730,"Oliver Stephenson"),
-  (4569,"Kim Levine"),
-  (2990,"Randall Stone"),
-  (7428,"Emma Hardy"),
-  (5440,"Kirk Byers");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (831,"Tucker Higgins"),
-  (8074,"Farrah Hill"),
-  (6765,"Imani Rodriguez"),
-  (8814,"Benedict Wilcox"),
-  (2244,"Calvin Kidd"),
-  (515,"August Mueller"),
-  (4603,"Stacy Mcintyre"),
-  (9263,"Erich Marshall"),
-  (5142,"Buckminster Stuart"),
-  (8806,"Petra Howe");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (1186,"Elvis Matthews"),
-  (2494,"Todd Glass"),
-  (9207,"Zorita Zamora"),
-  (670,"Dane Vang"),
-  (3414,"Anthony Rutledge"),
-  (9255,"Alyssa Chavez"),
-  (8970,"Walker Travis"),
-  (2238,"Justin Bishop"),
-  (6425,"Jillian Petersen"),
-  (9893,"Reuben Small");
-INSERT INTO `Employee` (`EmployeeID`,`Name`)
-VALUES
-  (2564,"Cole Anderson"),
-  (646,"Jillian Hampton"),
-  (6638,"Claire Terrell"),
-  (86,"Jael Cobb"),
-  (7353,"Deirdre Frank"),
-  (4749,"Deanna Mcfarland"),
-  (1132,"Burke Bean"),
-  (3914,"Axel Hunter"),
-  (3332,"Quail Kirby"), 
-  (1824,"Aristotle Joyce");
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0400', 'Subordinate')
+SELECT * FROM dual;
+
+-- Insert EmployeeType data for Subordinates (401-500)
+INSERT ALL
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0401', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0402', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0403', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0404', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0405', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0406', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0407', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0408', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0409', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0410', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0411', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0412', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0413', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0414', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0415', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0416', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0417', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0418', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0419', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0420', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0421', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0422', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0423', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0424', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0425', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0426', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0427', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0428', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0429', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0430', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0431', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0432', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0433', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0434', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0435', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0436', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0437', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0438', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0439', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0440', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0441', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0442', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0443', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0444', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0445', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0446', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0447', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0448', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0449', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0450', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0451', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0452', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0453', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0454', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0455', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0456', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0457', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0458', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0459', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0460', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0461', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0462', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0463', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0464', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0465', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0466', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0467', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0468', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0469', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0470', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0471', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0472', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0473', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0474', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0475', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0476', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0477', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0478', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0479', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0480', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0481', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0482', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0483', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0484', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0485', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0486', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0487', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0488', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0489', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0490', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0491', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0492', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0493', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0494', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0495', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0496', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0497', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0498', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0499', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0500', 'Subordinate')
+SELECT * FROM dual;
+
+-- Verify record counts
+SELECT 'Employee' AS TableName, COUNT(*) AS RecordCount FROM Employee
+UNION ALL
+SELECT 'Manager' AS TableName, COUNT(*) AS RecordCount FROM Manager
+UNION ALL
+SELECT 'Department' AS TableName, COUNT(*) AS RecordCount FROM Department
+UNION ALL
+SELECT 'Subordinate' AS TableName, COUNT(*) AS RecordCount FROM Subordinate
+UNION ALL
+SELECT 'Payroll' AS TableName, COUNT(*) AS RecordCount FROM Payroll
+UNION ALL
+SELECT 'EmployeeType' AS TableName, COUNT(*) AS RecordCount FROM EmployeeType;INTO EmployeeType (EmployeeID, Type) VALUES ('E0100', 'Manager')
+SELECT * FROM dual;
+
+-- Insert EmployeeType data for Subordinates (301-400)  
+INSERT ALL
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0301', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0302', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0303', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0304', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0305', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0306', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0307', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0308', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0309', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0310', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0311', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0312', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0313', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0314', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0315', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0316', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0317', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0318', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0319', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0320', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0321', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0322', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0323', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0324', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0325', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0326', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0327', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0328', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0329', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0330', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0331', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0332', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0333', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0334', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0335', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0336', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0337', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0338', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0339', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0340', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0341', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0342', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0343', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0344', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0345', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0346', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0347', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0348', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0349', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0350', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0351', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0352', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0353', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0354', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0355', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0356', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0357', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0358', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0359', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0360', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0361', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0362', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0363', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0364', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0365', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0366', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0367', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0368', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0369', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0370', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0371', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0372', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0373', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0374', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0375', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0376', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0377', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0378', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0379', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0380', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0381', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0382', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0383', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0384', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0385', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0386', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0387', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0388', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0389', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0390', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0391', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0392', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0393', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0394', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0395', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0396', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0397', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0398', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0399', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0400', 'Subordinate')
+
+-- Insert EmployeeType data for Managers (101-200)
+INSERT ALL
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0101', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0102', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0103', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0104', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0105', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0106', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0107', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0108', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0109', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0110', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0111', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0112', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0113', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0114', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0115', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0116', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0117', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0118', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0119', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0120', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0121', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0122', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0123', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0124', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0125', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0126', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0127', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0128', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0129', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0130', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0131', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0132', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0133', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0134', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0135', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0136', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0137', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0138', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0139', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0140', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0141', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0142', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0143', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0144', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0145', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0146', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0147', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0148', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0149', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0150', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0151', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0152', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0153', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0154', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0155', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0156', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0157', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0158', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0159', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0160', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0161', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0162', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0163', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0164', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0165', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0166', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0167', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0168', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0169', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0170', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0171', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0172', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0173', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0174', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0175', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0176', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0177', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0178', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0179', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0180', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0181', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0182', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0183', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0184', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0185', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0186', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0187', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0188', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0189', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0190', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0191', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0192', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0193', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0194', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0195', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0196', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0197', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0198', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0199', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0200', 'Manager')
+SELECT * FROM dual;
+
+-- Insert EmployeeType data for Subordinates (201-300)
+INSERT ALL
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0201', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0202', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0203', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0204', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0205', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0206', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0207', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0208', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0209', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0210', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0211', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0212', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0213', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0214', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0215', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0216', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0217', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0218', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0219', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0220', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0221', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0222', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0223', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0224', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0225', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0226', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0227', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0228', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0229', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0230', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0231', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0232', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0233', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0234', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0235', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0236', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0237', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0238', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0239', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0240', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0241', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0242', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0243', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0244', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0245', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0246', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0247', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0248', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0249', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0250', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0251', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0252', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0253', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0254', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0255', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0256', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0257', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0258', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0259', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0260', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0261', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0262', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0263', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0264', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0265', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0266', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0267', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0268', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0269', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0270', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0271', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0272', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0273', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0274', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0275', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0276', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0277', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0278', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0279', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0280', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0281', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0282', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0283', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0284', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0285', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0286', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0287', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0288', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0289', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0290', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0291', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0292', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0293', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0294', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0295', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0296', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0297', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0298', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0299', 'Subordinate')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0300', 'Subordinate')
+SELECT * FROM dual;SELECT * FROM dual;
+
+-- Insert EmployeeType data for Managers (first 200 employees)
+INSERT ALL
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0001', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0002', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0003', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0004', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0005', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0006', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0007', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0008', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0009', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0010', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0011', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0012', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0013', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0014', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0015', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0016', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0017', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0018', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0019', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0020', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0021', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0022', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0023', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0024', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0025', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0026', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0027', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0028', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0029', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0030', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0031', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0032', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0033', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0034', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0035', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0036', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0037', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0038', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0039', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0040', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0041', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0042', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0043', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0044', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0045', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0046', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0047', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0048', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0049', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0050', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0051', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0052', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0053', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0054', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0055', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0056', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0057', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0058', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0059', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0060', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0061', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0062', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0063', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0064', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0065', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0066', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0067', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0068', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0069', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0070', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0071', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0072', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0073', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0074', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0075', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0076', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0077', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0078', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0079', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0080', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0081', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0082', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0083', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0084', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0085', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0086', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0087', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0088', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0089', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0090', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0091', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0092', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0093', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0094', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0095', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0096', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0097', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0098', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0099', 'Manager')
+INTO EmployeeType (EmployeeID, Type) VALUES ('E0100', 'Manager')
+
+-- Insert Payroll data for subordinates (401-500)
+INSERT ALL
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (401, 'E0401', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (402, 'E0402', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (403, 'E0403', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (404, 'E0404', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (405, 'E0405', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (406, 'E0406', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (407, 'E0407', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (408, 'E0408', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (409, 'E0409', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (410, 'E0410', 89000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (411, 'E0411', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (412, 'E0412', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (413, 'E0413', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (414, 'E0414', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (415, 'E0415', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (416, 'E0416', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (417, 'E0417', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (418, 'E0418', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (419, 'E0419', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (420, 'E0420', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (421, 'E0421', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (422, 'E0422', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (423, 'E0423', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (424, 'E0424', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (425, 'E0425', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (426, 'E0426', 89000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (427, 'E0427', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (428, 'E0428', 90000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (429, 'E0429', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (430, 'E0430', 90000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (431, 'E0431', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (432, 'E0432', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (433, 'E0433', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (434, 'E0434', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (435, 'E0435', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (436, 'E0436', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (437, 'E0437', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (438, 'E0438', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (439, 'E0439', 90500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (440, 'E0440', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (441, 'E0441', 91000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (442, 'E0442', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (443, 'E0443', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (444, 'E0444', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (445, 'E0445', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (446, 'E0446', 89000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (447, 'E0447', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (448, 'E0448', 90000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (449, 'E0449', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (450, 'E0450', 91000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (451, 'E0451', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (452, 'E0452', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (453, 'E0453', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (454, 'E0454', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (455, 'E0455', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (456, 'E0456', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (457, 'E0457', 90500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (458, 'E0458', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (459, 'E0459', 91500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (460, 'E0460', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (461, 'E0461', 91000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (462, 'E0462', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (463, 'E0463', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (464, 'E0464', 89000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (465, 'E0465', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (466, 'E0466', 90000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (467, 'E0467', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (468, 'E0468', 91000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (469, 'E0469', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (470, 'E0470', 92000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (471, 'E0471', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (472, 'E0472', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (473, 'E0473', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (474, 'E0474', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (475, 'E0475', 90500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (476, 'E0476', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (477, 'E0477', 91500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (478, 'E0478', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (479, 'E0479', 92500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (480, 'E0480', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (481, 'E0481', 92000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (482, 'E0482', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (483, 'E0483', 89000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (484, 'E0484', 90000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (485, 'E0485', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (486, 'E0486', 91000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (487, 'E0487', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (488, 'E0488', 92000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (489, 'E0489', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (490, 'E0490', 93000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (491, 'E0491', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (492, 'E0492', 89500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (493, 'E0493', 90500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (494, 'E0494', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (495, 'E0495', 91500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (496, 'E0496', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (497, 'E0497', 92500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (498, 'E0498', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (499, 'E0499', 93500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (500, 'E0500', 85500.00, 'Bi-weekly')
+SELECT * FROM dual;SELECT * FROM dual;
+
+-- Insert Payroll data for subordinates (301-400)
+INSERT ALL
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (301, 'E0301', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (302, 'E0302', 73500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (303, 'E0303', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (304, 'E0304', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (305, 'E0305', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (306, 'E0306', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (307, 'E0307', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (308, 'E0308', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (309, 'E0309', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (310, 'E0310', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (311, 'E0311', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (312, 'E0312', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (313, 'E0313', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (314, 'E0314', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (315, 'E0315', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (316, 'E0316', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (317, 'E0317', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (318, 'E0318', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (319, 'E0319', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (320, 'E0320', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (321, 'E0321', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (322, 'E0322', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (323, 'E0323', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (324, 'E0324', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (325, 'E0325', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (326, 'E0326', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (327, 'E0327', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (328, 'E0328', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (329, 'E0329', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (330, 'E0330', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (331, 'E0331', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (332, 'E0332', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (333, 'E0333', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (334, 'E0334', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (335, 'E0335', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (336, 'E0336', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (337, 'E0337', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (338, 'E0338', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (339, 'E0339', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (340, 'E0340', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (341, 'E0341', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (342, 'E0342', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (343, 'E0343', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (344, 'E0344', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (345, 'E0345', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (346, 'E0346', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (347, 'E0347', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (348, 'E0348', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (349, 'E0349', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (350, 'E0350', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (351, 'E0351', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (352, 'E0352', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (353, 'E0353', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (354, 'E0354', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (355, 'E0355', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (356, 'E0356', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (357, 'E0357', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (358, 'E0358', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (359, 'E0359', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (360, 'E0360', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (361, 'E0361', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (362, 'E0362', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (363, 'E0363', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (364, 'E0364', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (365, 'E0365', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (366, 'E0366', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (367, 'E0367', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (368, 'E0368', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (369, 'E0369', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (370, 'E0370', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (371, 'E0371', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (372, 'E0372', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (373, 'E0373', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (374, 'E0374', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (375, 'E0375', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (376, 'E0376', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (377, 'E0377', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (378, 'E0378', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (379, 'E0379', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (380, 'E0380', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (381, 'E0381', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (382, 'E0382', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (383, 'E0383', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (384, 'E0384', 85000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (385, 'E0385', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (386, 'E0386', 86000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (387, 'E0387', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (388, 'E0388', 87000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (389, 'E0389', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (390, 'E0390', 88000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (391, 'E0391', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (392, 'E0392', 84500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (393, 'E0393', 85500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (394, 'E0394', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (395, 'E0395', 86500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (396, 'E0396', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (397, 'E0397', 87500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (398, 'E0398', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (399, 'E0399', 88500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (400, 'E0400', 80500.00, 'Bi-weekly')
+SELECT * FROM dual;
+
+-- Insert Payroll data for subordinates (201-300)
+INSERT ALL
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (201, 'E0201', 75000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (202, 'E0202', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (203, 'E0203', 74000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (204, 'E0204', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (205, 'E0205', 73000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (206, 'E0206', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (207, 'E0207', 72000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (208, 'E0208', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (209, 'E0209', 71000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (210, 'E0210', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (211, 'E0211', 70000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (212, 'E0212', 75500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (213, 'E0213', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (214, 'E0214', 74500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (215, 'E0215', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (216, 'E0216', 73500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (217, 'E0217', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (218, 'E0218', 72500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (219, 'E0219', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (220, 'E0220', 71500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (221, 'E0221', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (222, 'E0222', 70500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (223, 'E0223', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (224, 'E0224', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (225, 'E0225', 75000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (226, 'E0226', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (227, 'E0227', 74000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (228, 'E0228', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (229, 'E0229', 73000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (230, 'E0230', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (231, 'E0231', 72000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (232, 'E0232', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (233, 'E0233', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (234, 'E0234', 75500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (235, 'E0235', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (236, 'E0236', 74500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (237, 'E0237', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (238, 'E0238', 73500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (239, 'E0239', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (240, 'E0240', 72500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (241, 'E0241', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (242, 'E0242', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (243, 'E0243', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (244, 'E0244', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (245, 'E0245', 75000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (246, 'E0246', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (247, 'E0247', 74000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (248, 'E0248', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (249, 'E0249', 73000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (250, 'E0250', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (251, 'E0251', 72000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (252, 'E0252', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (253, 'E0253', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (254, 'E0254', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (255, 'E0255', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (256, 'E0256', 75500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (257, 'E0257', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (258, 'E0258', 74500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (259, 'E0259', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (260, 'E0260', 73500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (261, 'E0261', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (262, 'E0262', 72500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (263, 'E0263', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (264, 'E0264', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (265, 'E0265', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (266, 'E0266', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (267, 'E0267', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (268, 'E0268', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (269, 'E0269', 75000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (270, 'E0270', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (271, 'E0271', 74000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (272, 'E0272', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (273, 'E0273', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (274, 'E0274', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (275, 'E0275', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (276, 'E0276', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (277, 'E0277', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (278, 'E0278', 75500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (279, 'E0279', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (280, 'E0280', 74500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (281, 'E0281', 79000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (282, 'E0282', 80000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (283, 'E0283', 78000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (284, 'E0284', 81000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (285, 'E0285', 77000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (286, 'E0286', 82000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (287, 'E0287', 76000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (288, 'E0288', 83000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (289, 'E0289', 75000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (290, 'E0290', 84000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (291, 'E0291', 74000.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (292, 'E0292', 79500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (293, 'E0293', 80500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (294, 'E0294', 78500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (295, 'E0295', 81500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (296, 'E0296', 77500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (297, 'E0297', 82500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (298, 'E0298', 76500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (299, 'E0299', 83500.00, 'Bi-weekly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (300, 'E0300', 75500.00, 'Bi-weekly')
+SELECT * FROM dual;SELECT * FROM dual;
+
+-- Insert Payroll data for all employees (second batch 101-200)
+INSERT ALL
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (101, 'E0101', 119000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (102, 'E0102', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (103, 'E0103', 117000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (104, 'E0104', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (105, 'E0105', 130000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (106, 'E0106', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (107, 'E0107', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (108, 'E0108', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (109, 'E0109', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (110, 'E0110', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (111, 'E0111', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (112, 'E0112', 129500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (113, 'E0113', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (114, 'E0114', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (115, 'E0115', 119500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (116, 'E0116', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (117, 'E0117', 130500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (118, 'E0118', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (119, 'E0119', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (120, 'E0120', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (121, 'E0121', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (122, 'E0122', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (123, 'E0123', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (124, 'E0124', 130000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (125, 'E0125', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (126, 'E0126', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (127, 'E0127', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (128, 'E0128', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (129, 'E0129', 131000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (130, 'E0130', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (131, 'E0131', 129000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (132, 'E0132', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (133, 'E0133', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (134, 'E0134', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (135, 'E0135', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (136, 'E0136', 130500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (137, 'E0137', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (138, 'E0138', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (139, 'E0139', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (140, 'E0140', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (141, 'E0141', 131500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (142, 'E0142', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (143, 'E0143', 129500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (144, 'E0144', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (145, 'E0145', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (146, 'E0146', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (147, 'E0147', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (148, 'E0148', 131000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (149, 'E0149', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (150, 'E0150', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (151, 'E0151', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (152, 'E0152', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (153, 'E0153', 132000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (154, 'E0154', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (155, 'E0155', 130000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (156, 'E0156', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (157, 'E0157', 129000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (158, 'E0158', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (159, 'E0159', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (160, 'E0160', 131500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (161, 'E0161', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (162, 'E0162', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (163, 'E0163', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (164, 'E0164', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (165, 'E0165', 132500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (166, 'E0166', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (167, 'E0167', 130500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (168, 'E0168', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (169, 'E0169', 129500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (170, 'E0170', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (171, 'E0171', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (172, 'E0172', 132000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (173, 'E0173', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (174, 'E0174', 129000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (175, 'E0175', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (176, 'E0176', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (177, 'E0177', 133000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (178, 'E0178', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (179, 'E0179', 131000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (180, 'E0180', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (181, 'E0181', 130000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (182, 'E0182', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (183, 'E0183', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (184, 'E0184', 132500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (185, 'E0185', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (186, 'E0186', 129500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (187, 'E0187', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (188, 'E0188', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (189, 'E0189', 133500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (190, 'E0190', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (191, 'E0191', 131500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (192, 'E0192', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (193, 'E0193', 130500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (194, 'E0194', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (195, 'E0195', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (196, 'E0196', 133000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (197, 'E0197', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (198, 'E0198', 130000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (199, 'E0199', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (200, 'E0200', 125000.00, 'Monthly')
+SELECT * FROM dual;INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0400', 'F225', 45, 'D029')
+SELECT * FROM dual;
+
+-- Insert Payroll data for all employees (first batch 1-100)
+INSERT ALL
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (1, 'E0001', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (2, 'E0002', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (3, 'E0003', 118000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (4, 'E0004', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (5, 'E0005', 115000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (6, 'E0006', 117000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (7, 'E0007', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (8, 'E0008', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (9, 'E0009', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (10, 'E0010', 119000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (11, 'E0011', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (12, 'E0012', 116000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (13, 'E0013', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (14, 'E0014', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (15, 'E0015', 118500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (16, 'E0016', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (17, 'E0017', 115500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (18, 'E0018', 117500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (19, 'E0019', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (20, 'E0020', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (21, 'E0021', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (22, 'E0022', 119500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (23, 'E0023', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (24, 'E0024', 116500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (25, 'E0025', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (26, 'E0026', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (27, 'E0027', 119000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (28, 'E0028', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (29, 'E0029', 116000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (30, 'E0030', 118000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (31, 'E0031', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (32, 'E0032', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (33, 'E0033', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (34, 'E0034', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (35, 'E0035', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (36, 'E0036', 117000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (37, 'E0037', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (38, 'E0038', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (39, 'E0039', 119500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (40, 'E0040', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (41, 'E0041', 116500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (42, 'E0042', 118500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (43, 'E0043', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (44, 'E0044', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (45, 'E0045', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (46, 'E0046', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (47, 'E0047', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (48, 'E0048', 117500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (49, 'E0049', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (50, 'E0050', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (51, 'E0051', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (52, 'E0052', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (53, 'E0053', 117000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (54, 'E0054', 119000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (55, 'E0055', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (56, 'E0056', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (57, 'E0057', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (58, 'E0058', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (59, 'E0059', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (60, 'E0060', 118000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (61, 'E0061', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (62, 'E0062', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (63, 'E0063', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (64, 'E0064', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (65, 'E0065', 117500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (66, 'E0066', 119500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (67, 'E0067', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (68, 'E0068', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (69, 'E0069', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (70, 'E0070', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (71, 'E0071', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (72, 'E0072', 118500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (73, 'E0073', 123000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (74, 'E0074', 128000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (75, 'E0075', 121000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (76, 'E0076', 125000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (77, 'E0077', 118000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (78, 'E0078', 120000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (79, 'E0079', 129000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (80, 'E0080', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (81, 'E0081', 127000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (82, 'E0082', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (83, 'E0083', 126000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (84, 'E0084', 119000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (85, 'E0085', 123500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (86, 'E0086', 128500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (87, 'E0087', 121500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (88, 'E0088', 125500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (89, 'E0089', 118500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (90, 'E0090', 120500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (91, 'E0091', 129500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (92, 'E0092', 124500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (93, 'E0093', 127500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (94, 'E0094', 122500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (95, 'E0095', 126500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (96, 'E0096', 119500.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (97, 'E0097', 124000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (98, 'E0098', 129000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (99, 'E0099', 122000.00, 'Monthly')
+INTO Payroll (PayrollID, EmployeeID, Salary, PaymentFrequency) VALUES (100, 'E0100', 126000.00, 'Monthly')
+SELECT * FROM dual;
+
+-- Insert third batch of subordinates (401-500)
+INSERT ALL
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0401', 'F226', 2, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0402', 'F227', 10, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0403', 'F228', 18, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0404', 'F229', 26, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0405', 'F230', 35, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0406', 'F231', 44, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0407', 'F232', 1, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0408', 'F233', 9, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0409', 'F234', 17, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0410', 'F235', 25, 'D030')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0411', 'G201', 34, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0412', 'G202', 43, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0413', 'G203', 52, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0414', 'G204', 8, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0415', 'G205', 16, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0416', 'G206', 24, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0417', 'G207', 33, 'D031')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0418', 'G208', 42, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0419', 'G209', 51, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0420', 'G210', 7, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0421', 'G211', 15, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0422', 'G212', 23, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0423', 'G213', 32, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0424', 'G214', 41, 'D032')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0425', 'G215', 50, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0426', 'G216', 6, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0427', 'G217', 14, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0428', 'G218', 22, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0429', 'G219', 31, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0430', 'G220', 40, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0431', 'G221', 49, 'D033')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0432', 'G222', 5, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0433', 'G223', 13, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0434', 'G224', 21, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0435', 'G225', 30, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0436', 'G226', 39, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0437', 'G227', 48, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0438', 'G228', 4, 'D034')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0439', 'G229', 12, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0440', 'G230', 20, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0441', 'G231', 29, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0442', 'G232', 38, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0443', 'G233', 47, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0444', 'G234', 3, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0445', 'G235', 11, 'D035')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0446', 'H201', 19, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0447', 'H202', 28, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0448', 'H203', 37, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0449', 'H204', 46, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0450', 'H205', 2, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0451', 'H206', 10, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0452', 'H207', 18, 'D036')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0453', 'H208', 27, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0454', 'H209', 36, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0455', 'H210', 45, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0456', 'H211', 1, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0457', 'H212', 9, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0458', 'H213', 17, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0459', 'H214', 26, 'D037')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0460', 'H215', 35, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0461', 'H216', 44, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0462', 'H217', 53, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0463', 'H218', 8, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0464', 'H219', 16, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0465', 'H220', 25, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0466', 'H221', 34, 'D038')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0467', 'H222', 43, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0468', 'H223', 52, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0469', 'H224', 7, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0470', 'H225', 15, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0471', 'H226', 24, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0472', 'H227', 33, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0473', 'H228', 42, 'D039')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0474', 'H229', 51, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0475', 'H230', 6, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0476', 'H231', 14, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0477', 'H232', 23, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0478', 'H233', 32, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0479', 'H234', 41, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0480', 'H235', 50, 'D040')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0481', 'I201', 5, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0482', 'I202', 13, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0483', 'I203', 22, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0484', 'I204', 31, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0485', 'I205', 40, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0486', 'I206', 49, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0487', 'I207', 4, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0488', 'I208', 12, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0489', 'I209', 21, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0490', 'I210', 30, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0491', 'I211', 39, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0492', 'I212', 48, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0493', 'I213', 3, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0494', 'I214', 11, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0495', 'I215', 20, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0496', 'I216', 29, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0497', 'I217', 38, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0498', 'I218', 47, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0499', 'I219', 2, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0500', 'I220', 10, 'D020')
+SELECT * FROM dual;SELECT * FROM dual;
+
+-- Insert first batch of subordinates (201-300)
+INSERT ALL
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0201', 'A201', 12, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0202', 'A202', 18, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0203', 'A203', 24, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0204', 'A204', 36, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0205', 'A205', 48, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0206', 'A206', 6, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0207', 'A207', 15, 'D001')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0208', 'A208', 27, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0209', 'A209', 33, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0210', 'A210', 42, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0211', 'A211', 9, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0212', 'A212', 14, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0213', 'A213', 21, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0214', 'A214', 29, 'D002')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0215', 'A215', 38, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0216', 'A216', 47, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0217', 'A217', 11, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0218', 'A218', 16, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0219', 'A219', 23, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0220', 'A220', 30, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0221', 'A221', 41, 'D003')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0222', 'A222', 7, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0223', 'A223', 13, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0224', 'A224', 19, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0225', 'A225', 28, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0226', 'A226', 37, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0227', 'A227', 46, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0228', 'A228', 5, 'D004')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0229', 'A229', 14, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0230', 'A230', 22, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0231', 'A231', 31, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0232', 'A232', 39, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0233', 'A233', 48, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0234', 'A234', 8, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0235', 'A235', 17, 'D005')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0236', 'B201', 25, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0237', 'B202', 34, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0238', 'B203', 43, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0239', 'B204', 5, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0240', 'B205', 12, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0241', 'B206', 20, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0242', 'B207', 27, 'D006')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0243', 'B208', 36, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0244', 'B209', 45, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0245', 'B210', 9, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0246', 'B211', 16, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0247', 'B212', 24, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0248', 'B213', 32, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0249', 'B214', 40, 'D007')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0250', 'B215', 49, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0251', 'B216', 7, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0252', 'B217', 14, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0253', 'B218', 21, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0254', 'B219', 29, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0255', 'B220', 37, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0256', 'B221', 46, 'D008')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0257', 'B222', 6, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0258', 'B223', 13, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0259', 'B224', 20, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0260', 'B225', 28, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0261', 'B226', 35, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0262', 'B227', 44, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0263', 'B228', 5, 'D009')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0264', 'B229', 12, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0265', 'B230', 19, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0266', 'B231', 27, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0267', 'B232', 34, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0268', 'B233', 42, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0269', 'B234', 50, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0270', 'B235', 8, 'D010')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0271', 'C201', 16, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0272', 'C202', 23, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0273', 'C203', 31, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0274', 'C204', 39, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0275', 'C205', 48, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0276', 'C206', 7, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0277', 'C207', 15, 'D011')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0278', 'C208', 22, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0279', 'C209', 30, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0280', 'C210', 38, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0281', 'C211', 47, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0282', 'C212', 6, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0283', 'C213', 14, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0284', 'C214', 21, 'D012')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0285', 'C215', 29, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0286', 'C216', 37, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0287', 'C217', 46, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0288', 'C218', 5, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0289', 'C219', 13, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0290', 'C220', 20, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0291', 'C221', 28, 'D013')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0292', 'C222', 36, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0293', 'C223', 45, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0294', 'C224', 4, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0295', 'C225', 12, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0296', 'C226', 19, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0297', 'C227', 27, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0298', 'C228', 35, 'D014')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0299', 'C229', 43, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0300', 'C230', 52, 'D015')
+SELECT * FROM dual;
+
+-- Insert second batch of subordinates (301-400)
+INSERT ALL
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0301', 'C231', 3, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0302', 'C232', 11, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0303', 'C233', 18, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0304', 'C234', 26, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0305', 'C235', 34, 'D015')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0306', 'D201', 42, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0307', 'D202', 51, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0308', 'D203', 2, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0309', 'D204', 10, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0310', 'D205', 17, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0311', 'D206', 25, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0312', 'D207', 33, 'D016')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0313', 'D208', 41, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0314', 'D209', 50, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0315', 'D210', 1, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0316', 'D211', 9, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0317', 'D212', 16, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0318', 'D213', 24, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0319', 'D214', 32, 'D017')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0320', 'D215', 40, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0321', 'D216', 49, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0322', 'D217', 8, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0323', 'D218', 15, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0324', 'D219', 23, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0325', 'D220', 31, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0326', 'D221', 39, 'D018')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0327', 'D222', 48, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0328', 'D223', 7, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0329', 'D224', 14, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0330', 'D225', 22, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0331', 'D226', 30, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0332', 'D227', 38, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0333', 'D228', 47, 'D019')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0334', 'D229', 6, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0335', 'D230', 13, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0336', 'D231', 21, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0337', 'D232', 29, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0338', 'D233', 37, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0339', 'D234', 46, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0340', 'D235', 5, 'D020')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0341', 'E201', 12, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0342', 'E202', 20, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0343', 'E203', 28, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0344', 'E204', 36, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0345', 'E205', 45, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0346', 'E206', 4, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0347', 'E207', 11, 'D021')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0348', 'E208', 19, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0349', 'E209', 27, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0350', 'E210', 35, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0351', 'E211', 44, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0352', 'E212', 3, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0353', 'E213', 10, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0354', 'E214', 18, 'D022')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0355', 'E215', 26, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0356', 'E216', 34, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0357', 'E217', 43, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0358', 'E218', 2, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0359', 'E219', 9, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0360', 'E220', 17, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0361', 'E221', 25, 'D023')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0362', 'E222', 33, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0363', 'E223', 42, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0364', 'E224', 1, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0365', 'E225', 8, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0366', 'E226', 16, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0367', 'E227', 24, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0368', 'E228', 32, 'D024')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0369', 'E229', 41, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0370', 'E230', 50, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0371', 'E231', 7, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0372', 'E232', 15, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0373', 'E233', 23, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0374', 'E234', 31, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0375', 'E235', 40, 'D025')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0376', 'F201', 49, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0377', 'F202', 6, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0378', 'F203', 14, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0379', 'F204', 22, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0380', 'F205', 30, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0381', 'F206', 39, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0382', 'F207', 48, 'D026')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0383', 'F208', 5, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0384', 'F209', 13, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0385', 'F210', 21, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0386', 'F211', 29, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0387', 'F212', 38, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0388', 'F213', 47, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0389', 'F214', 4, 'D027')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0390', 'F215', 12, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0391', 'F216', 20, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0392', 'F217', 28, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0393', 'F218', 37, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0394', 'F219', 46, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0395', 'F220', 3, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0396', 'F221', 11, 'D028')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0397', 'F222', 19, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0398', 'F223', 27, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0399', 'F224', 36, 'D029')
+INTO Subordinate (EmployeeID, DeskNumber, TimeAtJob, DepartmentID) VALUES ('E0400', 'F225', 45, 'D029')-- Large data insert script for company database
+-- This script inserts 500 employees (200 managers and 300 subordinates)
+-- along with corresponding department, payroll, and type information
+
+-- Clear any existing data first
+DELETE FROM EmployeeType;
+DELETE FROM Payroll;
+DELETE FROM Subordinate;
+DELETE FROM Department;
+DELETE FROM Manager;
+DELETE FROM Employee;
+
+-- --- EMPLOYEE INSERTS (500 records) ---
+
+-- First batch of employees (1-100)
+INSERT ALL
+INTO Employee (EmployeeID, Name) VALUES ('E0001', 'John Adams')
+INTO Employee (EmployeeID, Name) VALUES ('E0002', 'Jane Baker')
+INTO Employee (EmployeeID, Name) VALUES ('E0003', 'Michael Campbell')
+INTO Employee (EmployeeID, Name) VALUES ('E0004', 'Sarah Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0005', 'Robert Edwards')
+INTO Employee (EmployeeID, Name) VALUES ('E0006', 'Maria Fisher')
+INTO Employee (EmployeeID, Name) VALUES ('E0007', 'David Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0008', 'Lisa Henderson')
+INTO Employee (EmployeeID, Name) VALUES ('E0009', 'William Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0010', 'Jennifer Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0011', 'James King')
+INTO Employee (EmployeeID, Name) VALUES ('E0012', 'Emily Lawson')
+INTO Employee (EmployeeID, Name) VALUES ('E0013', 'Thomas Moore')
+INTO Employee (EmployeeID, Name) VALUES ('E0014', 'Jessica Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0015', 'Christopher Owen')
+INTO Employee (EmployeeID, Name) VALUES ('E0016', 'Michelle Parker')
+INTO Employee (EmployeeID, Name) VALUES ('E0017', 'Daniel Quincy')
+INTO Employee (EmployeeID, Name) VALUES ('E0018', 'Amanda Rodriguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0019', 'Matthew Sullivan')
+INTO Employee (EmployeeID, Name) VALUES ('E0020', 'Ashley Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0021', 'Andrew Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0022', 'Stephanie Vincent')
+INTO Employee (EmployeeID, Name) VALUES ('E0023', 'Joseph Washington')
+INTO Employee (EmployeeID, Name) VALUES ('E0024', 'Nicole Xander')
+INTO Employee (EmployeeID, Name) VALUES ('E0025', 'Ryan Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0026', 'John Allen')
+INTO Employee (EmployeeID, Name) VALUES ('E0027', 'Jane Benson')
+INTO Employee (EmployeeID, Name) VALUES ('E0028', 'Michael Crawford')
+INTO Employee (EmployeeID, Name) VALUES ('E0029', 'Sarah Dickson')
+INTO Employee (EmployeeID, Name) VALUES ('E0030', 'Robert Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0031', 'Maria Franklin')
+INTO Employee (EmployeeID, Name) VALUES ('E0032', 'David Gonzalez')
+INTO Employee (EmployeeID, Name) VALUES ('E0033', 'Lisa Harrison')
+INTO Employee (EmployeeID, Name) VALUES ('E0034', 'William Irving')
+INTO Employee (EmployeeID, Name) VALUES ('E0035', 'Jennifer Jackson')
+INTO Employee (EmployeeID, Name) VALUES ('E0036', 'James Kelly')
+INTO Employee (EmployeeID, Name) VALUES ('E0037', 'Emily Lewis')
+INTO Employee (EmployeeID, Name) VALUES ('E0038', 'Thomas Mitchell')
+INTO Employee (EmployeeID, Name) VALUES ('E0039', 'Jessica Newton')
+INTO Employee (EmployeeID, Name) VALUES ('E0040', 'Christopher Olson')
+INTO Employee (EmployeeID, Name) VALUES ('E0041', 'Michelle Peterson')
+INTO Employee (EmployeeID, Name) VALUES ('E0042', 'Daniel Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0043', 'Amanda Richards')
+INTO Employee (EmployeeID, Name) VALUES ('E0044', 'Matthew Scott')
+INTO Employee (EmployeeID, Name) VALUES ('E0045', 'Ashley Turner')
+INTO Employee (EmployeeID, Name) VALUES ('E0046', 'Andrew Unger')
+INTO Employee (EmployeeID, Name) VALUES ('E0047', 'Stephanie Vance')
+INTO Employee (EmployeeID, Name) VALUES ('E0048', 'Joseph Wilson')
+INTO Employee (EmployeeID, Name) VALUES ('E0049', 'Nicole Xavier')
+INTO Employee (EmployeeID, Name) VALUES ('E0050', 'Ryan Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0051', 'John Anderson')
+INTO Employee (EmployeeID, Name) VALUES ('E0052', 'Jane Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0053', 'Michael Carter')
+INTO Employee (EmployeeID, Name) VALUES ('E0054', 'Sarah Dixon')
+INTO Employee (EmployeeID, Name) VALUES ('E0055', 'Robert Ellis')
+INTO Employee (EmployeeID, Name) VALUES ('E0056', 'Maria Foster')
+INTO Employee (EmployeeID, Name) VALUES ('E0057', 'David Gomez')
+INTO Employee (EmployeeID, Name) VALUES ('E0058', 'Lisa Hill')
+INTO Employee (EmployeeID, Name) VALUES ('E0059', 'William Irwin')
+INTO Employee (EmployeeID, Name) VALUES ('E0060', 'Jennifer Jones')
+INTO Employee (EmployeeID, Name) VALUES ('E0061', 'James Knight')
+INTO Employee (EmployeeID, Name) VALUES ('E0062', 'Emily Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0063', 'Thomas Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0064', 'Jessica Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0065', 'Christopher Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0066', 'Michelle Patterson')
+INTO Employee (EmployeeID, Name) VALUES ('E0067', 'Daniel Quigley')
+INTO Employee (EmployeeID, Name) VALUES ('E0068', 'Amanda Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0069', 'Matthew Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0070', 'Ashley Taylor')
+INTO Employee (EmployeeID, Name) VALUES ('E0071', 'Andrew Udell')
+INTO Employee (EmployeeID, Name) VALUES ('E0072', 'Stephanie Valdez')
+INTO Employee (EmployeeID, Name) VALUES ('E0073', 'Joseph Walker')
+INTO Employee (EmployeeID, Name) VALUES ('E0074', 'Nicole Xiong')
+INTO Employee (EmployeeID, Name) VALUES ('E0075', 'Ryan Yates')
+INTO Employee (EmployeeID, Name) VALUES ('E0076', 'John Austin')
+INTO Employee (EmployeeID, Name) VALUES ('E0077', 'Jane Blackwell')
+INTO Employee (EmployeeID, Name) VALUES ('E0078', 'Michael Cooper')
+INTO Employee (EmployeeID, Name) VALUES ('E0079', 'Sarah Donovan')
+INTO Employee (EmployeeID, Name) VALUES ('E0080', 'Robert Ellison')
+INTO Employee (EmployeeID, Name) VALUES ('E0081', 'Maria Faulkner')
+INTO Employee (EmployeeID, Name) VALUES ('E0082', 'David Garrison')
+INTO Employee (EmployeeID, Name) VALUES ('E0083', 'Lisa Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0084', 'William Iverson')
+INTO Employee (EmployeeID, Name) VALUES ('E0085', 'Jennifer Jensen')
+INTO Employee (EmployeeID, Name) VALUES ('E0086', 'James Kingston')
+INTO Employee (EmployeeID, Name) VALUES ('E0087', 'Emily Larson')
+INTO Employee (EmployeeID, Name) VALUES ('E0088', 'Thomas Murphy')
+INTO Employee (EmployeeID, Name) VALUES ('E0089', 'Jessica Norris')
+INTO Employee (EmployeeID, Name) VALUES ('E0090', 'Christopher O'Brien')
+INTO Employee (EmployeeID, Name) VALUES ('E0091', 'Michelle Powers')
+INTO Employee (EmployeeID, Name) VALUES ('E0092', 'Daniel Quentin')
+INTO Employee (EmployeeID, Name) VALUES ('E0093', 'Amanda Reed')
+INTO Employee (EmployeeID, Name) VALUES ('E0094', 'Matthew Stevenson')
+INTO Employee (EmployeeID, Name) VALUES ('E0095', 'Ashley Thomas')
+INTO Employee (EmployeeID, Name) VALUES ('E0096', 'Andrew Ullman')
+INTO Employee (EmployeeID, Name) VALUES ('E0097', 'Stephanie Vaughn')
+INTO Employee (EmployeeID, Name) VALUES ('E0098', 'Joseph White')
+INTO Employee (EmployeeID, Name) VALUES ('E0099', 'Nicole Yardley')
+INTO Employee (EmployeeID, Name) VALUES ('E0100', 'Ryan Zhou')
+SELECT * FROM dual;
+
+-- Insert departments (40 departments)
+INSERT ALL
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D001', 'Engineering', 'Building A, Floor 1', 'E0001')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D002', 'Marketing', 'Building A, Floor 2', 'E0002')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D003', 'Finance', 'Building A, Floor 3', 'E0003')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D004', 'Human Resources', 'Building A, Floor 4', 'E0004')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D005', 'Research & Development', 'Building B, Floor 1', 'E0005')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D006', 'Customer Support', 'Building B, Floor 2', 'E0006')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D007', 'Sales', 'Building B, Floor 3', 'E0007')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D008', 'Legal', 'Building B, Floor 4', 'E0008')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D009', 'IT Operations', 'Building C, Floor 1', 'E0009')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D010', 'Product Management', 'Building C, Floor 2', 'E0010')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D011', 'Quality Assurance', 'Building C, Floor 3', 'E0011')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D012', 'Business Development', 'Building C, Floor 4', 'E0012')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D013', 'Administration', 'Building D, Floor 1', 'E0013')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D014', 'Facilities Management', 'Building D, Floor 2', 'E0014')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D015', 'Public Relations', 'Building D, Floor 3', 'E0015')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D016', 'Supply Chain', 'Building D, Floor 4', 'E0016')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D017', 'Accounting', 'Building E, Floor 1', 'E0017')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D018', 'Data Science', 'Building E, Floor 2', 'E0018')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D019', 'User Experience', 'Building E, Floor 3', 'E0019')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D020', 'Information Security', 'Building E, Floor 4', 'E0020')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D021', 'Internal Audit', 'Building F, Floor 1', 'E0021')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D022', 'Corporate Communications', 'Building F, Floor 2', 'E0022')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D023', 'Project Management', 'Building F, Floor 3', 'E0023')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D024', 'Strategy', 'Building F, Floor 4', 'E0024')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D025', 'Compliance', 'Building G, Floor 1', 'E0025')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D026', 'Procurement', 'Building G, Floor 2', 'E0026')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D027', 'Training & Development', 'Building G, Floor 3', 'E0027')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D028', 'Customer Experience', 'Building G, Floor 4', 'E0028')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D029', 'Innovation', 'Building H, Floor 1', 'E0029')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D030', 'Executive Office', 'Building H, Floor 2', 'E0030')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D031', 'Software Development', 'Building H, Floor 3', 'E0031')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D032', 'Hardware Engineering', 'Building H, Floor 4', 'E0032')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D033', 'Cloud Services', 'Building I, Floor 1', 'E0033')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D034', 'Artificial Intelligence', 'Building I, Floor 2', 'E0034')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D035', 'Blockchain', 'Building I, Floor 3', 'E0035')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D036', 'IoT Development', 'Building I, Floor 4', 'E0036')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D037', 'Mobile Development', 'Building J, Floor 1', 'E0037')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D038', 'Web Development', 'Building J, Floor 2', 'E0038')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D039', 'DevOps', 'Building J, Floor 3', 'E0039')
+INTO Department (DepartmentID, Name, Location, ManagerID) VALUES ('D040', 'Database Administration', 'Building J, Floor 4', 'E0040')
+SELECT * FROM dual;
+
+-- Insert first batch of managers (1-100)
+INSERT ALL
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0001', 'A101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0002', 'A102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0003', 'A103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0004', 'A104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0005', 'A105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0006', 'A106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0007', 'A107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0008', 'A108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0009', 'A109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0010', 'A110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0011', 'A111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0012', 'A112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0013', 'A113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0014', 'A114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0015', 'A115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0016', 'A116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0017', 'A117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0018', 'A118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0019', 'A119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0020', 'A120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0021', 'A121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0022', 'A122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0023', 'A123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0024', 'A124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0025', 'A125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0026', 'B101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0027', 'B102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0028', 'B103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0029', 'B104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0030', 'B105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0031', 'B106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0032', 'B107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0033', 'B108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0034', 'B109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0035', 'B110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0036', 'B111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0037', 'B112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0038', 'B113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0039', 'B114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0040', 'B115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0041', 'B116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0042', 'B117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0043', 'B118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0044', 'B119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0045', 'B120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0046', 'B121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0047', 'B122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0048', 'B123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0049', 'B124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0050', 'B125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0051', 'C101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0052', 'C102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0053', 'C103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0054', 'C104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0055', 'C105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0056', 'C106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0057', 'C107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0058', 'C108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0059', 'C109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0060', 'C110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0061', 'C111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0062', 'C112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0063', 'C113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0064', 'C114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0065', 'C115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0066', 'C116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0067', 'C117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0068', 'C118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0069', 'C119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0070', 'C120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0071', 'C121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0072', 'C122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0073', 'C123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0074', 'C124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0075', 'C125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0076', 'D101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0077', 'D102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0078', 'D103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0079', 'D104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0080', 'D105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0081', 'D106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0082', 'D107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0083', 'D108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0084', 'D109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0085', 'D110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0086', 'D111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0087', 'D112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0088', 'D113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0089', 'D114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0090', 'D115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0091', 'D116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0092', 'D117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0093', 'D118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0094', 'D119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0095', 'D120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0096', 'D121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0097', 'D122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0098', 'D123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0099', 'D124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0100', 'D125', 'Health, Vision, 401k, Extra Vacation')
+SELECT * FROM dual;
+
+-- Insert second batch of managers (101-200)
+INSERT ALL
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0101', 'E101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0102', 'E102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0103', 'E103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0104', 'E104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0105', 'E105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0106', 'E106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0107', 'E107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0108', 'E108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0109', 'E109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0110', 'E110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0111', 'E111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0112', 'E112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0113', 'E113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0114', 'E114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0115', 'E115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0116', 'E116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0117', 'E117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0118', 'E118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0119', 'E119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0120', 'E120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0121', 'E121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0122', 'E122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0123', 'E123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0124', 'E124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0125', 'E125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0126', 'F101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0127', 'F102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0128', 'F103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0129', 'F104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0130', 'F105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0131', 'F106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0132', 'F107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0133', 'F108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0134', 'F109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0135', 'F110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0136', 'F111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0137', 'F112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0138', 'F113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0139', 'F114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0140', 'F115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0141', 'F116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0142', 'F117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0143', 'F118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0144', 'F119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0145', 'F120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0146', 'F121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0147', 'F122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0148', 'F123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0149', 'F124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0150', 'F125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0151', 'G101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0152', 'G102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0153', 'G103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0154', 'G104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0155', 'G105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0156', 'G106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0157', 'G107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0158', 'G108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0159', 'G109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0160', 'G110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0161', 'G111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0162', 'G112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0163', 'G113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0164', 'G114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0165', 'G115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0166', 'G116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0167', 'G117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0168', 'G118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0169', 'G119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0170', 'G120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0171', 'G121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0172', 'G122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0173', 'G123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0174', 'G124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0175', 'G125', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0176', 'H101', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0177', 'H102', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0178', 'H103', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0179', 'H104', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0180', 'H105', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0181', 'H106', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0182', 'H107', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0183', 'H108', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0184', 'H109', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0185', 'H110', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0186', 'H111', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0187', 'H112', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0188', 'H113', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0189', 'H114', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0190', 'H115', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0191', 'H116', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0192', 'H117', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0193', 'H118', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0194', 'H119', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0195', 'H120', 'Health, Vision, 401k, Extra Vacation')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0196', 'H121', 'Health, Dental, 401k, Stock Options')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0197', 'H122', 'Health, Vision, 401k, Bonus Plan')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0198', 'H123', 'Health, Dental, Vision, 401k')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0199', 'H124', 'Health, Dental, 401k, Company Car')
+INTO Manager (EmployeeID, OfficeNumber, Benefits) VALUES ('E0200', 'H125', 'Health, Vision, 401k, Extra Vacation')
+SELECT * FROM dual;
+
+-- The following inserts continue with employees 101-500 using Oracle's INSERT ALL syntax
+-- Second batch of employees (101-200)
+INSERT ALL
+INTO Employee (EmployeeID, Name) VALUES ('E0101', 'John Abbott')
+INTO Employee (EmployeeID, Name) VALUES ('E0102', 'Jane Bridges')
+INTO Employee (EmployeeID, Name) VALUES ('E0103', 'Michael Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0104', 'Sarah Dawson')
+INTO Employee (EmployeeID, Name) VALUES ('E0105', 'Robert Emerson')
+INTO Employee (EmployeeID, Name) VALUES ('E0106', 'Maria Fleming')
+INTO Employee (EmployeeID, Name) VALUES ('E0107', 'David Griffith')
+INTO Employee (EmployeeID, Name) VALUES ('E0108', 'Lisa Hammond')
+INTO Employee (EmployeeID, Name) VALUES ('E0109', 'William Isaacs')
+INTO Employee (EmployeeID, Name) VALUES ('E0110', 'Jennifer Jordan')
+INTO Employee (EmployeeID, Name) VALUES ('E0111', 'James Kennedy')
+INTO Employee (EmployeeID, Name) VALUES ('E0112', 'Emily Liu')
+INTO Employee (EmployeeID, Name) VALUES ('E0113', 'Thomas Morrison')
+INTO Employee (EmployeeID, Name) VALUES ('E0114', 'Jessica Nielsen')
+INTO Employee (EmployeeID, Name) VALUES ('E0115', 'Christopher Oakley')
+INTO Employee (EmployeeID, Name) VALUES ('E0116', 'Michelle Porter')
+INTO Employee (EmployeeID, Name) VALUES ('E0117', 'Daniel Reyes')
+INTO Employee (EmployeeID, Name) VALUES ('E0118', 'Amanda Santiago')
+INTO Employee (EmployeeID, Name) VALUES ('E0119', 'Matthew Torres')
+INTO Employee (EmployeeID, Name) VALUES ('E0120', 'Ashley Underhill')
+INTO Employee (EmployeeID, Name) VALUES ('E0121', 'Andrew Vargas')
+INTO Employee (EmployeeID, Name) VALUES ('E0122', 'Stephanie Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0123', 'Joseph Yamamoto')
+INTO Employee (EmployeeID, Name) VALUES ('E0124', 'Nicole Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0125', 'Ryan Armstrong')
+INTO Employee (EmployeeID, Name) VALUES ('E0126', 'John Bennett')
+INTO Employee (EmployeeID, Name) VALUES ('E0127', 'Jane Coleman')
+INTO Employee (EmployeeID, Name) VALUES ('E0128', 'Michael Drummond')
+INTO Employee (EmployeeID, Name) VALUES ('E0129', 'Sarah Erickson')
+INTO Employee (EmployeeID, Name) VALUES ('E0130', 'Robert Ferguson')
+INTO Employee (EmployeeID, Name) VALUES ('E0131', 'Maria Gonzalez')
+INTO Employee (EmployeeID, Name) VALUES ('E0132', 'David Howard')
+INTO Employee (EmployeeID, Name) VALUES ('E0133', 'Lisa Ibrahim')
+INTO Employee (EmployeeID, Name) VALUES ('E0134', 'William Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0135', 'Jennifer Klein')
+INTO Employee (EmployeeID, Name) VALUES ('E0136', 'James Lawrence')
+INTO Employee (EmployeeID, Name) VALUES ('E0137', 'Emily Martin')
+INTO Employee (EmployeeID, Name) VALUES ('E0138', 'Thomas Nichols')
+INTO Employee (EmployeeID, Name) VALUES ('E0139', 'Jessica O'Connor')
+INTO Employee (EmployeeID, Name) VALUES ('E0140', 'Christopher Patel')
+INTO Employee (EmployeeID, Name) VALUES ('E0141', 'Michelle Rivera')
+INTO Employee (EmployeeID, Name) VALUES ('E0142', 'Daniel Stewart')
+INTO Employee (EmployeeID, Name) VALUES ('E0143', 'Amanda Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0144', 'Matthew Unsworth')
+INTO Employee (EmployeeID, Name) VALUES ('E0145', 'Ashley Valencia')
+INTO Employee (EmployeeID, Name) VALUES ('E0146', 'Andrew Watson')
+INTO Employee (EmployeeID, Name) VALUES ('E0147', 'Stephanie Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0148', 'Joseph Zimmerman')
+INTO Employee (EmployeeID, Name) VALUES ('E0149', 'Nicole Adams')
+INTO Employee (EmployeeID, Name) VALUES ('E0150', 'Ryan Barnes')
+INTO Employee (EmployeeID, Name) VALUES ('E0151', 'John Collins')
+INTO Employee (EmployeeID, Name) VALUES ('E0152', 'Jane Duncan')
+INTO Employee (EmployeeID, Name) VALUES ('E0153', 'Michael Espinoza')
+INTO Employee (EmployeeID, Name) VALUES ('E0154', 'Sarah Freeman')
+INTO Employee (EmployeeID, Name) VALUES ('E0155', 'Robert Gomez')
+INTO Employee (EmployeeID, Name) VALUES ('E0156', 'Maria Harris')
+INTO Employee (EmployeeID, Name) VALUES ('E0157', 'David Iglesias')
+INTO Employee (EmployeeID, Name) VALUES ('E0158', 'Lisa Jackson')
+INTO Employee (EmployeeID, Name) VALUES ('E0159', 'William Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0160', 'Jennifer Lee')
+INTO Employee (EmployeeID, Name) VALUES ('E0161', 'James Morales')
+INTO Employee (EmployeeID, Name) VALUES ('E0162', 'Emily Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0163', 'Thomas Olsen')
+INTO Employee (EmployeeID, Name) VALUES ('E0164', 'Jessica Parker')
+INTO Employee (EmployeeID, Name) VALUES ('E0165', 'Christopher Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0166', 'Michelle Reyes')
+INTO Employee (EmployeeID, Name) VALUES ('E0167', 'Daniel Sullivan')
+INTO Employee (EmployeeID, Name) VALUES ('E0168', 'Amanda Turner')
+INTO Employee (EmployeeID, Name) VALUES ('E0169', 'Matthew Vega')
+INTO Employee (EmployeeID, Name) VALUES ('E0170', 'Ashley Washington')
+INTO Employee (EmployeeID, Name) VALUES ('E0171', 'Andrew Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0172', 'Stephanie Zimmerman')
+INTO Employee (EmployeeID, Name) VALUES ('E0173', 'Joseph Abbott')
+INTO Employee (EmployeeID, Name) VALUES ('E0174', 'Nicole Baker')
+INTO Employee (EmployeeID, Name) VALUES ('E0175', 'Ryan Campbell')
+INTO Employee (EmployeeID, Name) VALUES ('E0176', 'John Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0177', 'Jane Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0178', 'Michael Foster')
+INTO Employee (EmployeeID, Name) VALUES ('E0179', 'Sarah Green')
+INTO Employee (EmployeeID, Name) VALUES ('E0180', 'Robert Henderson')
+INTO Employee (EmployeeID, Name) VALUES ('E0181', 'Maria Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0182', 'David Jones')
+INTO Employee (EmployeeID, Name) VALUES ('E0183', 'Lisa Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0184', 'William Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0185', 'Jennifer Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0186', 'James Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0187', 'Emily Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0188', 'Thomas Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0189', 'Jessica Ramos')
+INTO Employee (EmployeeID, Name) VALUES ('E0190', 'Christopher Scott')
+INTO Employee (EmployeeID, Name) VALUES ('E0191', 'Michelle Taylor')
+INTO Employee (EmployeeID, Name) VALUES ('E0192', 'Daniel Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0193', 'Amanda Wilson')
+INTO Employee (EmployeeID, Name) VALUES ('E0194', 'Matthew Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0195', 'Ashley Adams')
+INTO Employee (EmployeeID, Name) VALUES ('E0196', 'Andrew Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0197', 'Stephanie Carter')
+INTO Employee (EmployeeID, Name) VALUES ('E0198', 'Joseph Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0199', 'Nicole Edwards')
+INTO Employee (EmployeeID, Name) VALUES ('E0200', 'Ryan Fisher')
+SELECT * FROM dual;
+
+-- Third batch of employees (201-300)
+INSERT ALL
+INTO Employee (EmployeeID, Name) VALUES ('E0201', 'John Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0202', 'Jane Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0203', 'Michael Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0204', 'Sarah Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0205', 'Robert King')
+INTO Employee (EmployeeID, Name) VALUES ('E0206', 'Maria Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0207', 'David Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0208', 'Lisa Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0209', 'William Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0210', 'Jennifer Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0211', 'James Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0212', 'Emily Rodriguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0213', 'Thomas Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0214', 'Jessica Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0215', 'Christopher Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0216', 'Michelle Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0217', 'Daniel Wilson')
+INTO Employee (EmployeeID, Name) VALUES ('E0218', 'Amanda Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0219', 'Matthew Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0220', 'Ashley Anderson')
+INTO Employee (EmployeeID, Name) VALUES ('E0221', 'Andrew Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0222', 'Stephanie Castro')
+INTO Employee (EmployeeID, Name) VALUES ('E0223', 'Joseph Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0224', 'Nicole Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0225', 'Ryan Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0226', 'John Gonzalez')
+INTO Employee (EmployeeID, Name) VALUES ('E0227', 'Jane Harris')
+INTO Employee (EmployeeID, Name) VALUES ('E0228', 'Michael Iverson')
+INTO Employee (EmployeeID, Name) VALUES ('E0229', 'Sarah Jackson')
+INTO Employee (EmployeeID, Name) VALUES ('E0230', 'Robert Kennedy')
+INTO Employee (EmployeeID, Name) VALUES ('E0231', 'Maria Lewis')
+INTO Employee (EmployeeID, Name) VALUES ('E0232', 'David Miller')
+INTO Employee (EmployeeID, Name) VALUES ('E0233', 'Lisa Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0234', 'William O'Connor')
+INTO Employee (EmployeeID, Name) VALUES ('E0235', 'Jennifer Peterson')
+INTO Employee (EmployeeID, Name) VALUES ('E0236', 'James Roberts')
+INTO Employee (EmployeeID, Name) VALUES ('E0237', 'Emily Sanchez')
+INTO Employee (EmployeeID, Name) VALUES ('E0238', 'Thomas Thomas')
+INTO Employee (EmployeeID, Name) VALUES ('E0239', 'Jessica Vance')
+INTO Employee (EmployeeID, Name) VALUES ('E0240', 'Christopher Walker')
+INTO Employee (EmployeeID, Name) VALUES ('E0241', 'Michelle Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0242', 'Daniel Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0243', 'Amanda Bennett')
+INTO Employee (EmployeeID, Name) VALUES ('E0244', 'Matthew Carter')
+INTO Employee (EmployeeID, Name) VALUES ('E0245', 'Ashley Dominguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0246', 'Andrew Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0247', 'Stephanie Foster')
+INTO Employee (EmployeeID, Name) VALUES ('E0248', 'Joseph Green')
+INTO Employee (EmployeeID, Name) VALUES ('E0249', 'Nicole Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0250', 'Ryan Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0251', 'John Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0252', 'Jane Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0253', 'Michael Lewis')
+INTO Employee (EmployeeID, Name) VALUES ('E0254', 'Sarah Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0255', 'Robert Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0256', 'Maria Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0257', 'David Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0258', 'Lisa Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0259', 'William Singh')
+INTO Employee (EmployeeID, Name) VALUES ('E0260', 'Jennifer Taylor')
+INTO Employee (EmployeeID, Name) VALUES ('E0261', 'James Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0262', 'Emily Vega')
+INTO Employee (EmployeeID, Name) VALUES ('E0263', 'Thomas Wilson')
+INTO Employee (EmployeeID, Name) VALUES ('E0264', 'Jessica Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0265', 'Christopher Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0266', 'Michelle Adams')
+INTO Employee (EmployeeID, Name) VALUES ('E0267', 'Daniel Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0268', 'Amanda Clark')
+INTO Employee (EmployeeID, Name) VALUES ('E0269', 'Matthew Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0270', 'Ashley Edwards')
+INTO Employee (EmployeeID, Name) VALUES ('E0271', 'Andrew Fisher')
+INTO Employee (EmployeeID, Name) VALUES ('E0272', 'Stephanie Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0273', 'Joseph Hill')
+INTO Employee (EmployeeID, Name) VALUES ('E0274', 'Nicole Iverson')
+INTO Employee (EmployeeID, Name) VALUES ('E0275', 'Ryan Jackson')
+INTO Employee (EmployeeID, Name) VALUES ('E0276', 'John Kelly')
+INTO Employee (EmployeeID, Name) VALUES ('E0277', 'Jane Liu')
+INTO Employee (EmployeeID, Name) VALUES ('E0278', 'Michael Martin')
+INTO Employee (EmployeeID, Name) VALUES ('E0279', 'Sarah Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0280', 'Robert Ortega')
+INTO Employee (EmployeeID, Name) VALUES ('E0281', 'Maria Porter')
+INTO Employee (EmployeeID, Name) VALUES ('E0282', 'David Rodriguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0283', 'Lisa Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0284', 'William Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0285', 'Jennifer Upton')
+INTO Employee (EmployeeID, Name) VALUES ('E0286', 'James Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0287', 'Emily Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0288', 'Thomas Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0289', 'Jessica Zimmerman')
+INTO Employee (EmployeeID, Name) VALUES ('E0290', 'Christopher Allen')
+INTO Employee (EmployeeID, Name) VALUES ('E0291', 'Michelle Baker')
+INTO Employee (EmployeeID, Name) VALUES ('E0292', 'Daniel Campbell')
+INTO Employee (EmployeeID, Name) VALUES ('E0293', 'Amanda Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0294', 'Matthew Edwards')
+INTO Employee (EmployeeID, Name) VALUES ('E0295', 'Ashley Fischer')
+INTO Employee (EmployeeID, Name) VALUES ('E0296', 'Andrew Gomez')
+INTO Employee (EmployeeID, Name) VALUES ('E0297', 'Stephanie Hill')
+INTO Employee (EmployeeID, Name) VALUES ('E0298', 'Joseph Irving')
+INTO Employee (EmployeeID, Name) VALUES ('E0299', 'Nicole Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0300', 'Ryan King')
+SELECT * FROM dual;
+
+-- Fourth batch of employees (301-400)
+INSERT ALL
+INTO Employee (EmployeeID, Name) VALUES ('E0301', 'John Lee')
+INTO Employee (EmployeeID, Name) VALUES ('E0302', 'Jane Miller')
+INTO Employee (EmployeeID, Name) VALUES ('E0303', 'Michael Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0304', 'Sarah Olson')
+INTO Employee (EmployeeID, Name) VALUES ('E0305', 'Robert Parker')
+INTO Employee (EmployeeID, Name) VALUES ('E0306', 'Maria Rodriguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0307', 'David Scott')
+INTO Employee (EmployeeID, Name) VALUES ('E0308', 'Lisa Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0309', 'William Unger')
+INTO Employee (EmployeeID, Name) VALUES ('E0310', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0311', 'James Walker')
+INTO Employee (EmployeeID, Name) VALUES ('E0312', 'Emily Yates')
+INTO Employee (EmployeeID, Name) VALUES ('E0313', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0314', 'Jessica Anderson')
+INTO Employee (EmployeeID, Name) VALUES ('E0315', 'Christopher Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0316', 'Michelle Clark')
+INTO Employee (EmployeeID, Name) VALUES ('E0317', 'Daniel Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0318', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0319', 'Matthew Fisher')
+INTO Employee (EmployeeID, Name) VALUES ('E0320', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0321', 'Andrew Harris')
+INTO Employee (EmployeeID, Name) VALUES ('E0322', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0323', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0324', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0325', 'Ryan Lewis')
+INTO Employee (EmployeeID, Name) VALUES ('E0326', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0327', 'Jane Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0328', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0329', 'Sarah Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0330', 'Robert Quinto')
+INTO Employee (EmployeeID, Name) VALUES ('E0331', 'Maria Robinson')
+INTO Employee (EmployeeID, Name) VALUES ('E0332', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0333', 'Lisa Taylor')
+INTO Employee (EmployeeID, Name) VALUES ('E0334', 'William Uribe')
+INTO Employee (EmployeeID, Name) VALUES ('E0335', 'Jennifer Valdez')
+INTO Employee (EmployeeID, Name) VALUES ('E0336', 'James White')
+INTO Employee (EmployeeID, Name) VALUES ('E0337', 'Emily Young')
+INTO Employee (EmployeeID, Name) VALUES ('E0338', 'Thomas Zhao')
+INTO Employee (EmployeeID, Name) VALUES ('E0339', 'Jessica Adams')
+INTO Employee (EmployeeID, Name) VALUES ('E0340', 'Christopher Bell')
+INTO Employee (EmployeeID, Name) VALUES ('E0341', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0342', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0343', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0344', 'Matthew Fuentes')
+INTO Employee (EmployeeID, Name) VALUES ('E0345', 'Ashley Gomez')
+INTO Employee (EmployeeID, Name) VALUES ('E0346', 'Andrew Hayes')
+INTO Employee (EmployeeID, Name) VALUES ('E0347', 'Stephanie Iglesias')
+INTO Employee (EmployeeID, Name) VALUES ('E0348', 'Joseph Jackson')
+INTO Employee (EmployeeID, Name) VALUES ('E0349', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0350', 'Ryan Lee')
+INTO Employee (EmployeeID, Name) VALUES ('E0351', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0352', 'Jane Nguyen')
+INTO Employee (EmployeeID, Name) VALUES ('E0353', 'Michael Ortega')
+INTO Employee (EmployeeID, Name) VALUES ('E0354', 'Sarah Patel')
+INTO Employee (EmployeeID, Name) VALUES ('E0355', 'Robert Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0356', 'Maria Rivera')
+INTO Employee (EmployeeID, Name) VALUES ('E0357', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0358', 'Lisa Torres')
+INTO Employee (EmployeeID, Name) VALUES ('E0359', 'William Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0360', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0361', 'James Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0362', 'Emily Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0363', 'Thomas Zimmerman')
+INTO Employee (EmployeeID, Name) VALUES ('E0364', 'Jessica Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0365', 'Christopher Baker')
+INTO Employee (EmployeeID, Name) VALUES ('E0366', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0367', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0368', 'Amanda Edwards')
+INTO Employee (EmployeeID, Name) VALUES ('E0369', 'Matthew Ford')
+INTO Employee (EmployeeID, Name) VALUES ('E0370', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0371', 'Andrew Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0372', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0373', 'Joseph Jones')
+INTO Employee (EmployeeID, Name) VALUES ('E0374', 'Nicole Kelly')
+INTO Employee (EmployeeID, Name) VALUES ('E0375', 'Ryan Liu')
+INTO Employee (EmployeeID, Name) VALUES ('E0376', 'John Mason')
+INTO Employee (EmployeeID, Name) VALUES ('E0377', 'Jane Nolan')
+INTO Employee (EmployeeID, Name) VALUES ('E0378', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0379', 'Sarah Peterson')
+INTO Employee (EmployeeID, Name) VALUES ('E0380', 'Robert Quintana')
+INTO Employee (EmployeeID, Name) VALUES ('E0381', 'Maria Rodriguez')
+INTO Employee (EmployeeID, Name) VALUES ('E0382', 'David Santos')
+INTO Employee (EmployeeID, Name) VALUES ('E0383', 'Lisa Taylor')
+INTO Employee (EmployeeID, Name) VALUES ('E0384', 'William Uribe')
+INTO Employee (EmployeeID, Name) VALUES ('E0385', 'Jennifer Valdez')
+INTO Employee (EmployeeID, Name) VALUES ('E0386', 'James Washington')
+INTO Employee (EmployeeID, Name) VALUES ('E0387', 'Emily Yoon')
+INTO Employee (EmployeeID, Name) VALUES ('E0388', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0389', 'Jessica Allen')
+INTO Employee (EmployeeID, Name) VALUES ('E0390', 'Christopher Brown')
+INTO Employee (EmployeeID, Name) VALUES ('E0391', 'Michelle Carter')
+INTO Employee (EmployeeID, Name) VALUES ('E0392', 'Daniel Davis')
+INTO Employee (EmployeeID, Name) VALUES ('E0393', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0394', 'Matthew Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0395', 'Ashley Gonzalez')
+INTO Employee (EmployeeID, Name) VALUES ('E0396', 'Andrew Harris')
+INTO Employee (EmployeeID, Name) VALUES ('E0397', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0398', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0399', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0400', 'Ryan Lopez')
+SELECT * FROM dual;
+
+-- Fifth batch of employees (401-500)
+INSERT ALL
+INTO Employee (EmployeeID, Name) VALUES ('E0401', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0402', 'Jane Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0403', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0404', 'Sarah Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0405', 'Robert Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0406', 'Maria Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0407', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0408', 'Lisa Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0409', 'William Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0410', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0411', 'James Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0412', 'Emily Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0413', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0414', 'Jessica Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0415', 'Christopher Barker')
+INTO Employee (EmployeeID, Name) VALUES ('E0416', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0417', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0418', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0419', 'Matthew Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0420', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0421', 'Andrew Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0422', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0423', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0424', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0425', 'Ryan Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0426', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0427', 'Jane Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0428', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0429', 'Sarah Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0430', 'Robert Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0431', 'Maria Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0432', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0433', 'Lisa Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0434', 'William Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0435', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0436', 'James Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0437', 'Emily Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0438', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0439', 'Jessica Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0440', 'Christopher Barker')
+INTO Employee (EmployeeID, Name) VALUES ('E0441', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0442', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0443', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0444', 'Matthew Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0445', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0446', 'Andrew Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0447', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0448', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0449', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0450', 'Ryan Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0451', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0452', 'Jane Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0453', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0454', 'Sarah Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0455', 'Robert Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0456', 'Maria Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0457', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0458', 'Lisa Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0459', 'William Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0460', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0461', 'James Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0462', 'Emily Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0463', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0464', 'Jessica Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0465', 'Christopher Barker')
+INTO Employee (EmployeeID, Name) VALUES ('E0466', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0467', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0468', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0469', 'Matthew Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0470', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0471', 'Andrew Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0472', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0473', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0474', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0475', 'Ryan Lopez')
+INTO Employee (EmployeeID, Name) VALUES ('E0476', 'John Martinez')
+INTO Employee (EmployeeID, Name) VALUES ('E0477', 'Jane Nelson')
+INTO Employee (EmployeeID, Name) VALUES ('E0478', 'Michael Ortiz')
+INTO Employee (EmployeeID, Name) VALUES ('E0479', 'Sarah Perez')
+INTO Employee (EmployeeID, Name) VALUES ('E0480', 'Robert Quinn')
+INTO Employee (EmployeeID, Name) VALUES ('E0481', 'Maria Ramirez')
+INTO Employee (EmployeeID, Name) VALUES ('E0482', 'David Smith')
+INTO Employee (EmployeeID, Name) VALUES ('E0483', 'Lisa Thompson')
+INTO Employee (EmployeeID, Name) VALUES ('E0484', 'William Underwood')
+INTO Employee (EmployeeID, Name) VALUES ('E0485', 'Jennifer Vasquez')
+INTO Employee (EmployeeID, Name) VALUES ('E0486', 'James Williams')
+INTO Employee (EmployeeID, Name) VALUES ('E0487', 'Emily Yang')
+INTO Employee (EmployeeID, Name) VALUES ('E0488', 'Thomas Zhang')
+INTO Employee (EmployeeID, Name) VALUES ('E0489', 'Jessica Alvarez')
+INTO Employee (EmployeeID, Name) VALUES ('E0490', 'Christopher Barker')
+INTO Employee (EmployeeID, Name) VALUES ('E0491', 'Michelle Chen')
+INTO Employee (EmployeeID, Name) VALUES ('E0492', 'Daniel Diaz')
+INTO Employee (EmployeeID, Name) VALUES ('E0493', 'Amanda Evans')
+INTO Employee (EmployeeID, Name) VALUES ('E0494', 'Matthew Flores')
+INTO Employee (EmployeeID, Name) VALUES ('E0495', 'Ashley Garcia')
+INTO Employee (EmployeeID, Name) VALUES ('E0496', 'Andrew Hernandez')
+INTO Employee (EmployeeID, Name) VALUES ('E0497', 'Stephanie Ingram')
+INTO Employee (EmployeeID, Name) VALUES ('E0498', 'Joseph Johnson')
+INTO Employee (EmployeeID, Name) VALUES ('E0499', 'Nicole Kim')
+INTO Employee (EmployeeID, Name) VALUES ('E0500', 'Ryan Lopez')
+SELECT * FROM dual;
