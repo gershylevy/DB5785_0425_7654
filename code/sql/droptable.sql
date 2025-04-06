@@ -1,20 +1,27 @@
--- Drop tables in correct order to handle foreign key constraints properly
--- First drop tables that have the most dependencies on other tables
+-- Disable foreign key checks to avoid dependency issues
 
--- Drop the EmployeeType table
-DROP TABLE IF EXISTS EmployeeType;
+SET FOREIGN_KEY_CHECKS = 0;
 
--- Drop the Payroll table
-DROP TABLE IF EXISTS Payroll;
 
--- Drop the Subordinate table (depends on Employee and Department)
-DROP TABLE IF EXISTS Subordinate;
 
--- Drop the Department table (depends on Manager)
-DROP TABLE IF EXISTS Department;
+-- Drop tables in reverse order of dependencies
 
--- Drop the Manager table (depends on Employee)
-DROP TABLE IF EXISTS Manager;
+DROP TABLE IF EXISTS CustomerSegmentAssignment;
 
--- Finally drop the base Employee table (no dependencies)
-DROP TABLE IF EXISTS Employee;
+DROP TABLE IF EXISTS CustomerSegment;
+
+DROP TABLE IF EXISTS CustomerNote;
+
+DROP TABLE IF EXISTS CustomerDocument;
+
+DROP TABLE IF EXISTS Contact;
+
+DROP TABLE IF EXISTS Address;
+
+DROP TABLE IF EXISTS Customer;
+
+
+
+-- Re-enable foreign key checks
+
+SET FOREIGN_KEY_CHECKS = 1;
