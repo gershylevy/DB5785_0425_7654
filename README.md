@@ -161,7 +161,7 @@ images/erd/one.jpg
 
 
      code/sql/createtable.sql
-   > ![ERD_image](code/sql/createtable.sql)
+   > ![Create_Table_Code](code/sql/createtable.sql)
 
 3. **Generating Sample Data**:
    - Generated sample data to simulate real-world scenarios using **SQL Insert Statements**.
