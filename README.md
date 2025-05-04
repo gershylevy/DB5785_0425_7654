@@ -139,6 +139,9 @@ This workshop introduces key database concepts and provides hands-on practice in
 
    images/erd/ERD.PNG
    > ![ERD_image](images/erd/ERD.PNG)
+
+    images/erd/DSD.png
+   > ![ERD_image](images/erd/DSD.png)
    
  images/erd/addimagetoreadme.PNG  
 > ![add_image_to readme_with_relative_path](images/erd/addimagetoreadme.PNG)
