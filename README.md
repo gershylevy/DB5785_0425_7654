@@ -170,13 +170,7 @@ images/erd/one.jpg
    **[Add Sample Data Insert Script Here]**
    *(Upload or link to the sample data insert scripts)*
 
-4. **Writing SQL Queries**:
-   - Practiced writing **SELECT**, **JOIN**, **GROUP BY**, and **ORDER BY** queries.
-   - Learned best practices for querying data efficiently, including indexing and optimization techniques.
-
-   **[Add Example SQL Query Here]**
-   *(Provide or link to example SQL queries)*
-
+   
    Backups/Backup1/excelTemplateGen.py
    > ![Excel_Gen_Code](Backups/Backup1/excelTemplateGen.py)
 
@@ -185,6 +179,13 @@ images/erd/one.jpg
 
    Backups/Backup1/generatedata.sql
    > ![Generate_Data_SQL_Code](Backups/Backup1/generatedata.sql)
+
+5. **Writing SQL Queries**:
+   - Practiced writing **SELECT**, **JOIN**, **GROUP BY**, and **ORDER BY** queries.
+   - Learned best practices for querying data efficiently, including indexing and optimization techniques.
+
+   **[Add Example SQL Query Here]**
+   *(Provide or link to example SQL queries)*
 
 6. **Stored Procedures and Functions**:
    - Created reusable **stored procedures** and **functions** to handle common database tasks.
