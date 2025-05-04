@@ -159,35 +159,39 @@ images/erd/one.jpg
    **[Add Table Creation Code Here]**
    *(Provide or link to the SQL code used to create the tables)*
 
-4. **Generating Sample Data**:
+
+     code/sql/createtable.sql
+   > ![ERD_image](code/sql/createtable.sql)
+
+3. **Generating Sample Data**:
    - Generated sample data to simulate real-world scenarios using **SQL Insert Statements**.
    - Used scripts to automate bulk data insertion for large datasets.
 
    **[Add Sample Data Insert Script Here]**
    *(Upload or link to the sample data insert scripts)*
 
-5. **Writing SQL Queries**:
+4. **Writing SQL Queries**:
    - Practiced writing **SELECT**, **JOIN**, **GROUP BY**, and **ORDER BY** queries.
    - Learned best practices for querying data efficiently, including indexing and optimization techniques.
 
    **[Add Example SQL Query Here]**
    *(Provide or link to example SQL queries)*
 
-6. **Stored Procedures and Functions**:
+5. **Stored Procedures and Functions**:
    - Created reusable **stored procedures** and **functions** to handle common database tasks.
    - Used SQL to manage repetitive operations and improve performance.
 
    **[Add Stored Procedures/Function Code Here]**
    *(Upload or link to SQL code for stored procedures and functions)*
 
-7. **Views**:
+6. **Views**:
    - Created **views** to simplify complex queries and provide data abstraction.
    - Focused on security by limiting user access to certain columns or rows.
 
    **[Add View Code Here]**
    *(Provide or link to the SQL code for views)*
 
-8. **PostgreSQL with Docker**:
+7. **PostgreSQL with Docker**:
    - Set up a Docker container to run **PostgreSQL**.
    - Configured database connections and managed data persistence within the containerized environment.
 
