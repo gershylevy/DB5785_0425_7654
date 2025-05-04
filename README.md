@@ -177,21 +177,30 @@ images/erd/one.jpg
    **[Add Example SQL Query Here]**
    *(Provide or link to example SQL queries)*
 
-5. **Stored Procedures and Functions**:
+   Backups/Backup1/excelTemplateGen.py
+   > ![Excel_Gen_Code](Backups/Backup1/excelTemplateGen.py)
+
+   Backups/Backup1/generatedata.py
+   > ![Generate_Data_Python_Code](Backups/Backup1/generatedata.py)
+
+   Backups/Backup1/generatedata.sql
+   > ![Generate_Data_SQL_Code](Backups/Backup1/generatedata.sql)
+
+6. **Stored Procedures and Functions**:
    - Created reusable **stored procedures** and **functions** to handle common database tasks.
    - Used SQL to manage repetitive operations and improve performance.
 
    **[Add Stored Procedures/Function Code Here]**
    *(Upload or link to SQL code for stored procedures and functions)*
 
-6. **Views**:
+7. **Views**:
    - Created **views** to simplify complex queries and provide data abstraction.
    - Focused on security by limiting user access to certain columns or rows.
 
    **[Add View Code Here]**
    *(Provide or link to the SQL code for views)*
 
-7. **PostgreSQL with Docker**:
+8. **PostgreSQL with Docker**:
    - Set up a Docker container to run **PostgreSQL**.
    - Configured database connections and managed data persistence within the containerized environment.
 
