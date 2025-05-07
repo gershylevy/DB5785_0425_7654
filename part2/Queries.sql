@@ -1,4 +1,3 @@
-
 -- SELECT 1
 SELECT 
     C.Customer_First_Name, 
@@ -27,22 +26,23 @@ WHERE
     A.is_primary = TRUE
     AND EXTRACT(YEAR FROM C.customer_since) = EXTRACT(YEAR FROM CURRENT_DATE);
 
--- SELECT 3
+
+
+-- Show customers with important notes in specific categories
 SELECT 
     C.CustomerID, 
     C.Customer_First_Name, 
     C.Customer_Last_Name, 
-    COUNT(N.note_id) AS ImportantNotes
+    N.note_category,
+    N.is_important
 FROM 
     Customer C
 JOIN 
     CustomerNote N ON C.CustomerID = N.customer_id
 WHERE 
     N.is_important = TRUE
-GROUP BY 
-    C.CustomerID
-HAVING 
-    COUNT(N.note_id) > 1;
+    AND N.note_category IN ('complain', 'report');
+
 
 -- SELECT 4
 SELECT 
@@ -71,6 +71,7 @@ LEFT JOIN
 WHERE 
     A.customer_id IS NULL;
 
+
 -- SELECT 6
 SELECT 
     S.segment_name, 
@@ -83,6 +84,7 @@ JOIN
     CustomerSegment S ON S.segment_id = A.segment_id
 GROUP BY 
     S.segment_name;
+
 
 -- SELECT 7
 SELECT 
@@ -98,6 +100,7 @@ JOIN
 WHERE 
     D.expiry_date < CURRENT_DATE - INTERVAL '1 year';
 
+
 -- SELECT 8
 SELECT 
     EXTRACT(MONTH FROM customer_since) AS month, 
@@ -108,6 +111,7 @@ GROUP BY
     EXTRACT(MONTH FROM customer_since)
 ORDER BY 
     month;
+
 
 -- DELETE 1
 DELETE FROM Customer
