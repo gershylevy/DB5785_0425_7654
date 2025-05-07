@@ -1,5 +1,6 @@
 
 -- ROLLBACK example
+-- Temporarily updates important notes for testing, then reverts the change.
 BEGIN;
 UPDATE CustomerNote
 SET note_text = 'בדיקה זמנית'
@@ -8,6 +9,7 @@ SELECT * FROM CustomerNote WHERE is_important = TRUE;
 ROLLBACK;
 
 -- COMMIT example
+-- Updates important notes and permanently saves the change.
 BEGIN;
 UPDATE CustomerNote
 SET note_text = 'עודכנה על ידי מערכת'
