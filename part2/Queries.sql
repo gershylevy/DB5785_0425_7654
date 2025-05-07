@@ -114,20 +114,24 @@ ORDER BY
 
 
 -- DELETE 1
+-- Deletes customers who aren't assigned to any segment.
 DELETE FROM Customer
 WHERE CustomerID NOT IN (
     SELECT customer_id FROM CustomerSegmentAssignment
 );
 
 -- DELETE 2
+--Deletes non-primary addresses that are outside of Israel.
 DELETE FROM Address
 WHERE is_primary = FALSE AND country != 'Israel';
 
 -- DELETE 3
+-- Deletes customer documents that expired more than 5 years ago.
 DELETE FROM CustomerDocument
 WHERE expiry_date < CURRENT_DATE - INTERVAL '5 years';
 
 -- UPDATE 1
+--All notes (CustomerNote) belonging to customers over 65 years old will be marked as is_important = TRUE.
 UPDATE CustomerNote
 SET is_important = TRUE
 WHERE customer_id IN (
@@ -136,11 +140,13 @@ WHERE customer_id IN (
 );
 
 -- UPDATE 2
+--Marks expired documents as unverified.
 UPDATE CustomerDocument
 SET verification_status = FALSE
 WHERE expiry_date < CURRENT_DATE;
 
 -- UPDATE 3
+--Promotes customers with lots of valid documents to the Premium segment.
 UPDATE CustomerSegmentAssignment
 SET segment_id = (
     SELECT segment_id FROM CustomerSegment WHERE segment_name = 'Premium'
