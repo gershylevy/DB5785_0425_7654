@@ -417,9 +417,32 @@ By the end of this workshop, you should be able to:
 
 ## Queries
 
-### 1. **Query to show all who have valid docs**
-images/queries/valid_docs.png
+### 1. **Query to show all customers who have valid docs**
    > ![Valid Docs](images/queries/valid_docs.jpg)
+
+### 2. **Query to show addresses of everyone who joined this year**
+   > ![Current_Year](images/queries/current_year.jpg)
+
+### 3. **Query to show all customers who sent in an important report or complaint**
+   > ![Important_Report_Or_Complaint](images/important_report_or_complaint/valid_docs.jpg)
+
+### 4. **Query to show average customer age for each segment**
+   > ![Average_Age_Per_Segment](images/queries/avg_age_per_segment.jpg)
+
+### 5. **Query to show all customers whose documents expired more than a year ago**
+   > ![Expired_Over_Year_ago](images/queries/expired_over_year_ago.jpg)
+
+### 6. **Query to show how many customers signed up in each month**
+   > ![Signed_Up_Per_Month](images/queries/signed_up_per_month.jpg)
+
+### 7. **Query to show all customers who live in Longmen**
+   > ![Live_In_Longmen](images/queries/live_in_longmen.jpg)
+
+### 8. **Query to show primary contact info sorted by type**
+   > ![Primary_Contact_Info](images/queries/primary_contact.jpg)
+
+
+
 
 
 
