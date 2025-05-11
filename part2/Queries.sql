@@ -1,4 +1,5 @@
 -- SELECT 1
+--Shows all customers who have documents that are still valid (not expired).
 SELECT 
     C.Customer_First_Name, 
     C.Customer_Last_Name, 
@@ -13,6 +14,7 @@ GROUP BY
     C.CustomerID;
 
 -- SELECT 2
+-- Lists the primary address of customers who joined in the current calendar year.
 SELECT 
     C.Customer_First_Name, 
     C.Customer_Last_Name,
@@ -28,7 +30,7 @@ WHERE
 
 
 -- SELECT 3
--- Show customers with important notes in specific categories
+-- Finds customers who submitted important notes that are either complaints or reports.
 SELECT 
     C.CustomerID, 
     C.Customer_First_Name, 
@@ -45,6 +47,7 @@ WHERE
 
 
 -- SELECT 4
+-- Displays the primary contact information for each customer, ordered by contact type.
 SELECT 
     C.Customer_First_Name, 
     C.Customer_Last_Name,
@@ -60,6 +63,7 @@ ORDER BY
     CT.contact_type;
 
 -- SELECT 5
+-- Lists customers who live in the city named 'Longmen' along with their address.
 SELECT 
     C.CustomerID, 
     C.Customer_First_Name, 
@@ -77,6 +81,7 @@ WHERE
 
 
 -- SELECT 6
+-- Calculates the average age of customers in each customer segment.
 SELECT 
     S.segment_name, 
     ROUND(AVG(EXTRACT(YEAR FROM AGE(C.date_of_birth))), 1) AS avg_age
@@ -91,6 +96,7 @@ GROUP BY
 
 
 -- SELECT 7
+-- Shows customers who have documents that expired more than one year ago.
 SELECT 
     C.CustomerID, 
     C.Customer_First_Name, 
@@ -107,6 +113,7 @@ WHERE
 
 
 -- SELECT 8
+-- Counts how many customers joined in each month, grouped by month.
 SELECT 
     EXTRACT(MONTH FROM customer_since) AS month, 
     COUNT(*) AS customer_count
