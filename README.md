@@ -424,7 +424,7 @@ By the end of this workshop, you should be able to:
    > ![Current_Year](images/queries/current_year.jpg)
 
 ### 3. **Query to show all customers who sent in an important report or complaint**
-   > ![Important_Report_Or_Complaint](images/important_report_or_complaint/valid_docs.jpg)
+   > ![Important_Report_Or_Complaint](images/queries/important_report_or_complaint.jpg)
 
 ### 4. **Query to show average customer age for each segment**
    > ![Average_Age_Per_Segment](images/queries/avg_age_per_segment.jpg)
