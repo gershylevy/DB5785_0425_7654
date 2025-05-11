@@ -163,6 +163,118 @@ images/erd/one.jpg
      code/sql/createtable.sql
    [Create_Table_Code](code/sql/createtable.sql)
 
+   ## Database Schema Documentation
+
+### 1. Customer Table
+**Purpose**: The Customer table serves as the central entity in our banking/financial system, storing core personal information about each customer.
+
+**Why we added it**: This is the primary entity that all other tables reference. Without customers, there would be no need for addresses, contacts, documents, etc.
+
+**Attributes and their purposes**:
+- `CustomerID (INT PRIMARY KEY)`: Unique identifier for each customer. We use an integer primary key for fast indexing and efficient joins with other tables.
+- `Customer_First_Name (VARCHAR(50))`: Stores the customer's first name. 50 characters is sufficient for most names while preventing excessive storage use.
+- `Customer_Last_Name (VARCHAR(50))`: Stores the customer's last name separately for better querying capabilities (e.g., searching by last name).
+- `ssn (VARCHAR(20) UNIQUE)`: Social Security Number for unique identification. Made UNIQUE to prevent duplicate customers. VARCHAR(20) allows for formatting with dashes.
+- `date_of_birth (DATE)`: Essential for age verification, legal compliance, and demographic analysis.
+- `customer_since (DATE)`: Tracks customer relationship duration, useful for loyalty programs and customer segmentation.
+
+### 2. Address Table
+**Purpose**: Stores multiple addresses for each customer (home, work, vacation, etc.).
+
+**Why we added it**: Customers often have multiple addresses, and separating this into its own table follows database normalization principles (avoiding data redundancy).
+
+**Attributes and their purposes**:
+- `addressID (INT PRIMARY KEY)`: Unique identifier for each address record.
+- `customer_id (INT, FOREIGN KEY)`: Links the address to a specific customer. ON DELETE CASCADE ensures addresses are removed when a customer is deleted.
+- `street_address (VARCHAR(255))`: Stores the street portion of the address. 255 characters accommodates long addresses.
+- `city_name (VARCHAR(50))`: City information for geographic segmentation and correspondence.
+- `state (VARCHAR(50))`: State/province information. 50 characters allows for full state names or international provinces.
+- `zip_code (VARCHAR(20))`: Postal code as VARCHAR to handle international formats (some include letters).
+- `country (VARCHAR(50))`: Country information for international customers.
+- `asress_type (VARCHAR(50))`: Type of address (HOME, WORK, VACATION, etc.). Note: This appears to be a typo for "address_type".
+- `is_primary (BOOLEAN)`: Flags the main address for correspondence and default shipping.
+
+### 3. Contact Table
+**Purpose**: Manages multiple contact methods for each customer (email, phone, fax, etc.).
+
+**Why we added it**: Customers have various contact methods, and this design allows unlimited contact entries per customer while maintaining data integrity.
+
+**Attributes and their purposes**:
+- `contactID (INT PRIMARY KEY)`: Unique identifier for each contact record.
+- `customer_id (INT, FOREIGN KEY)`: Links contact to customer with CASCADE deletion.
+- `contact_type (VARCHAR(50))`: Categorizes contact method (EMAIL, PHONE, FAX, etc.).
+- `contact_value (VARCHAR(100))`: The actual contact information. 100 characters accommodates email addresses and international phone numbers.
+- `is_primary (BOOLEAN)`: Identifies the preferred contact method.
+
+### 4. CustomerDocument Table
+**Purpose**: Tracks important identification and verification documents for regulatory compliance.
+
+**Why we added it**: Financial institutions must verify customer identity (KYC - Know Your Customer) and maintain records of identification documents.
+
+**Attributes and their purposes**:
+- `document_id (INT PRIMARY KEY)`: Unique identifier for each document.
+- `customer_id (INT, FOREIGN KEY)`: Links document to customer.
+- `document_type (VARCHAR(50))`: Type of document (PASSPORT, DRIVERS_LICENSE, etc.).
+- `document_number (VARCHAR(50) UNIQUE)`: Document's official number. UNIQUE prevents duplicate document entries.
+- `issue_date (DATE)`: When the document was issued.
+- `expiry_date (DATE)`: Document expiration for compliance tracking.
+- `verification_status (BOOLEAN)`: Whether the document has been verified by staff.
+- `file_reference (VARCHAR(255))`: Path or reference to the scanned document file.
+
+### 5. CustomerNote Table
+**Purpose**: Records important interactions, observations, and customer service notes.
+
+**Why we added it**: Maintains a history of customer interactions, complaints, and important information for customer service continuity.
+
+**Attributes and their purposes**:
+- `note_id (INT PRIMARY KEY)`: Unique identifier for each note.
+- `customer_id (INT, FOREIGN KEY)`: Links note to customer.
+- `employee_id (INT)`: Tracks which employee created the note (references an employee table not shown).
+- `note_date (DATE)`: When the note was created.
+- `note_category (VARCHAR(50))`: Categorizes notes (COMPLAINT, INQUIRY, ACCOUNT_REVIEW, etc.).
+- `note_text (TEXT)`: The actual note content. TEXT type allows for lengthy notes.
+- `is_important (BOOLEAN)`: Flags critical notes for immediate attention.
+
+### 6. CustomerSegment Table
+**Purpose**: Defines customer tiers or segments based on business rules.
+
+**Why we added it**: Enables customer classification for targeted marketing, service levels, and benefits.
+
+**Attributes and their purposes**:
+- `segment_id (INT PRIMARY KEY)`: Unique identifier for each segment.
+- `segment_name (VARCHAR(100))`: Name of the segment (STANDARD, PREMIUM, GOLD, PLATINUM).
+- `description (TEXT)`: Detailed description of segment benefits and criteria.
+- `min_balance_required (DECIMAL(10,2))`: Minimum account balance to qualify for this segment. DECIMAL ensures accurate financial calculations.
+
+### 7. CustomerSegmentAssignment Table
+**Purpose**: Associates customers with their current segment(s).
+
+**Why we added it**: This junction table enables many-to-many relationships between customers and segments, allowing segment changes over time.
+
+**Attributes and their purposes**:
+- `assignment_id (INT PRIMARY KEY)`: Unique identifier for each assignment.
+- `customer_id (INT, FOREIGN KEY)`: Links to the customer being assigned.
+- `segment_id (INT, FOREIGN KEY)`: Links to the segment being assigned.
+- `assigned_date (DATE)`: When the customer was assigned to this segment, enabling historical tracking.
+
+## Key Design Decisions
+
+1. **Normalization**: The schema follows third normal form (3NF) to minimize data redundancy and ensure data integrity.
+
+2. **CASCADE Deletion**: All foreign keys use ON DELETE CASCADE to maintain referential integrity when customers are removed.
+
+3. **Primary Keys**: All tables use integer primary keys for efficient indexing and joins.
+
+4. **Data Types**: 
+   - VARCHAR lengths are chosen based on expected data sizes
+   - DECIMAL for financial values to avoid floating-point precision issues
+   - BOOLEAN for binary states (is_primary, verification_status)
+   - TEXT for unlimited-length content (notes, descriptions)
+
+5. **Unique Constraints**: Applied to SSN and document numbers to prevent duplicates.
+
+6. **Separate Tables**: Each major concept (addresses, contacts, documents) has its own table to support multiple entries per customer and maintain clean data organization.
+
 3. **Generating Sample Data**:
    - Generated sample data to simulate real-world scenarios using **SQL Insert Statements**.
    - Used scripts to automate bulk data insertion for large datasets.
