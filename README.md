@@ -293,6 +293,13 @@ images/erd/one.jpg
    Backups/Backup1/generatedata.sql
    [Generate_Data_SQL_Code](Backups/Backup1%20/generatedata.sql)
 
+
+   > ![Populated_Tables](images/erd/populated_tables.jpg)
+   > ![insert_works](images/erd/insert_works.jpg)
+
+
+   
+
 5. **Writing SQL Queries**:
    - Practiced writing **SELECT**, **JOIN**, **GROUP BY**, and **ORDER BY** queries.
    - Learned best practices for querying data efficiently, including indexing and optimization techniques.
