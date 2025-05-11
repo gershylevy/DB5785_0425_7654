@@ -498,6 +498,19 @@ By the end of this workshop, you should be able to:
    #### After:
    > ![After_Commit](images/queries/after_commit.jpg)
 
+# Constraints
+### 1. **All customers date of birth has to be before today**
+   > ![Date_of_birth_must_be_before_today](images/queries/dob_before_today.jpg)
+
+### 2. **Sets default address to home if none provided**
+   > ![Set_Default_Address_As_Home](images/queries/default_address.jpg)
+
+### 3. **Ensure every contact has not null email or phone**
+   > ![Not_Null_Email_Or_Phone](images/queries/not_null_contact_info.jpg)
+
+
+
+
 
 ## 👇 Resources
 
