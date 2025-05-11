@@ -63,13 +63,17 @@ ORDER BY
 SELECT 
     C.CustomerID, 
     C.Customer_First_Name, 
-    C.Customer_Last_Name
+    C.Customer_Last_Name,
+    A.city_name,
+    A.street_address
 FROM 
     Customer C
-LEFT JOIN 
+JOIN 
     Address A ON C.CustomerID = A.customer_id
 WHERE 
-    A.customer_id IS NULL;
+    A.city_name = 'Longmen';
+
+
 
 
 -- SELECT 6
