@@ -485,8 +485,18 @@ By the end of this workshop, you should be able to:
    #### After:
    > ![After_Verified_Img/Gif_Promoted](images/queries/after_promotion.jpg)
 
+# Rollback
 
+   #### Mid Rollback:
+   > ![Mid_Rollback](images/queries/before_rollback.jpg)
+   #### After Rollback:
+   > ![After_Rollback](images/queries/after_rollback.jpg)
 
+# Commit
+   #### Before:
+   > ![Before_Commit](images/queries/before_commit.jpg)
+   #### After:
+   > ![After_Commit](images/queries/after_commit.jpg)
 
 
 ## 👇 Resources
