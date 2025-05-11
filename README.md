@@ -419,7 +419,7 @@ By the end of this workshop, you should be able to:
 
 ### 1. **Query to show all who have valid docs**
 images/queries/valid_docs.png
-   > ![Valid Docs](images/queries/valid_docs.png)
+   > ![Valid Docs](images/queries/valid_docs.jpg)
 
 
 
