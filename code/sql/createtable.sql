@@ -1,4 +1,5 @@
 CREATE TABLE Customer (
+    EmployeeID INT,
     CustomerID INT PRIMARY KEY,
     Customer_First_Name VARCHAR(50),
     Customer_Last_Name VARCHAR(50),
