@@ -442,6 +442,29 @@ By the end of this workshop, you should be able to:
    > ![Primary_Contact_Info](images/queries/primary_contact.jpg)
 
 
+---
+
+## Deletions
+
+### 1. **Remove customers who haven't been updated in over 3 years and have expired documents**
+   #### Before:
+   > ![Before_Not_Updated_For_3_Years_Removal](images/queries/before_3_years.jpg)
+   #### After
+   > ![After_Not_Updated_For_3_Years_Removal](images/queries/after_3_years.jpg)
+
+### 2. **Remove contact records that are duplicates and not marked as primary**
+   #### Before:
+   > ![Before_Non_Primary_Duplicate_Contact_Records_Removal](images/queries/before_duplicates.jpg)
+   #### After
+   > ![After_Non_Primary_Duplicate_Contact_Records_Removal](images/queries/after_duplicates.jpg)
+
+### 3. **Remove all non-primary addresses that are outside of China**
+   #### Before:
+   > ![Before_Non_Primary_And_Non_Chinese_Removal](images/queries/before_china.jpg)
+   #### After
+   > ![Before_Non_Primary_And_Non_Chinese_Removal](images/queries/after_china.jpg)
+
+
 
 
 
