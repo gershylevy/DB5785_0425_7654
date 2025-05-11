@@ -415,7 +415,7 @@ By the end of this workshop, you should be able to:
 
 ---
 
-## Queries
+# Queries
 
 ### 1. **Query to show all customers who have valid docs**
    > ![Valid Docs](images/queries/valid_docs.jpg)
@@ -442,13 +442,9 @@ By the end of this workshop, you should be able to:
    > ![Primary_Contact_Info](images/queries/primary_contact.jpg)
 
 
-
-
-
-  
 ---
 
-## Deletions
+# Deletions
 
 ### 1. **Remove customers who haven't been updated in over 3 years and have expired documents**
    #### Before:
