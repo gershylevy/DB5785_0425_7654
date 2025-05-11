@@ -478,6 +478,12 @@ By the end of this workshop, you should be able to:
    #### After:
    > ![After_Expired_Docs_Marked_Unverified](images/queries/after_expired.jpg)
 
+### 3. **Promote all customers whose documents are valid and verified and of type img/gif**
+   #### Before:
+   > ![Before_Verified_Img/Gif_Promoted_Part_1](images/queries/before_promotion1.jpg)
+   > ![Before_Verified_Img/Gif_Promoted_Part_2](images/queries/before_promotion2.jpg)
+   #### After:
+   > ![After_Verified_Img/Gif_Promoted](images/queries/after_promotion.jpg)
 
 
 
