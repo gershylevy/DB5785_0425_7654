@@ -464,6 +464,20 @@ By the end of this workshop, you should be able to:
    #### After:
    > ![Before_Non_Primary_And_Non_Chinese_Removal](images/queries/after_china.jpg)
 
+# Updates
+
+### 1. **Update all notes of customers over 65 to important**
+   #### Before:
+   > ![Before_Updated_Notes_For_Over_65](images/queries/before_65.jpg)
+   #### After:
+   > ![After_Updated_Notes_For_Over_65](images/queries/after_65.jpg)
+
+### 2. **Update all expired documents to be unverified**
+   #### Before:
+   > ![Before_Expired_Docs_Marked_Unverified](images/queries/before_expired.jpg)
+   #### After:
+   > ![After_Expired_Docs_Marked_Unverified](images/queries/after_expired.jpg)
+
 
 
 
