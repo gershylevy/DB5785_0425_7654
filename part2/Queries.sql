@@ -27,7 +27,7 @@ WHERE
     AND EXTRACT(YEAR FROM C.customer_since) = EXTRACT(YEAR FROM CURRENT_DATE);
 
 
-
+-- SELECT 3
 -- Show customers with important notes in specific categories
 SELECT 
     C.CustomerID, 
@@ -105,6 +105,7 @@ WHERE
     D.expiry_date < CURRENT_DATE - INTERVAL '1 year';
 
 
+
 -- SELECT 8
 SELECT 
     EXTRACT(MONTH FROM customer_since) AS month, 
@@ -117,22 +118,44 @@ ORDER BY
     month;
 
 
--- DELETE 1
--- Deletes customers who aren't assigned to any segment.
+
+-- DELETE 1 
+-- Remove customers who haven't been updated in over 3 years and have expired documents
 DELETE FROM Customer
-WHERE CustomerID NOT IN (
-    SELECT customer_id FROM CustomerSegmentAssignment
+WHERE CustomerID IN (
+    SELECT c.CustomerID
+    FROM Customer c
+    LEFT JOIN CustomerDocument d ON c.CustomerID = d.customer_id
+    WHERE c.customer_since < CURRENT_DATE - INTERVAL '3 years'
+    AND NOT EXISTS (
+        SELECT 1
+        FROM CustomerDocument
+        WHERE customer_id = c.CustomerID
+        AND expiry_date > CURRENT_DATE
+    )
 );
 
+
+
 -- DELETE 2
---Deletes non-primary addresses that are outside of Israel.
+-- Deletes non-primary addresses that are outside of Israel.
 DELETE FROM Address
 WHERE is_primary = FALSE AND country != 'Israel';
 
--- DELETE 3
--- Deletes customer documents that expired more than 5 years ago.
-DELETE FROM CustomerDocument
-WHERE expiry_date < CURRENT_DATE - INTERVAL '5 years';
+--DELETE 3 
+-- Remove contact records that are duplicates but not marked as primary
+DELETE FROM Contact
+WHERE contactID IN (
+    SELECT c1.contactID
+    FROM Contact c1
+    JOIN Contact c2 ON c1.customer_id = c2.customer_id 
+        AND c1.contact_type = c2.contact_type
+        AND c1.contact_value = c2.contact_value
+    WHERE c1.is_primary = FALSE
+    AND c2.is_primary = TRUE
+);
+
+
 
 -- UPDATE 1
 --All notes (CustomerNote) belonging to customers over 65 years old will be marked as is_important = TRUE.
