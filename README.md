@@ -350,54 +350,6 @@ By the end of this workshop, you should be able to:
 - Work effectively with PostgreSQL inside a Docker container for development and testing.
 
 ---
-## Integration
-
-### Their stuff
-#### Their DSD
-> ![Their_DSD](images/theirs/their_dsd.jpg)
-
-#### Their ERD
-> ![Their_DSD](images/theirs/their_erd.jpg)
-
-
-### Integrated stuff
-
-#### Design Decisions
-
-Here's a short explanation of the ERD design decisions:
-
-**One-to-Many Relationships (Most Common):**
-- **Employee → Customer**: One employee manages multiple customers (realistic business scenario)
-- **Customer → Address/Contact/Documents**: Customers need multiple addresses (home, work), contact methods (phone, email), and documents (ID, passport)
-- **Employee → Position**: Employees have job history - current and past positions
-- **Department → Employee**: One department contains many employees (organizational hierarchy)
-
-**Many-to-One Relationships:**
-- **Employee → Department**: Multiple employees belong to one department (reporting structure)
-- **Customer → Employee**: Multiple customers assigned to one employee (workload distribution)
-
-**One-to-One Relationship:**
-- **Department → Manager**: Each department has exactly one manager (clear accountability)
-
-**Many-to-Many Relationship:**
-- **Customer ↔ Segment**: Customers can belong to multiple segments over time (VIP, Premium, etc.), and segments contain multiple customers. Used junction table CustomerSegmentAssignment to track when assignments happened.
-
-**Why This Design:**
-- Reflects real business relationships (employees manage customers, departments have hierarchies)
-- Prevents data redundancy (separate tables for addresses vs. storing in customer table)
-- Maintains data integrity with proper foreign keys
-- Supports historical tracking (position history, segment changes over time)
-
-The design follows normalization principles while keeping it practical for a customer-employee management system.
-
-
-#### Integrated DSD
-> ![Integrated_DSD](images/integrated/integrated_dsd.jpg)
-
-#### Integrated ERD
-> ![Integrated_ERD](images/integrated/integrated_erd.jpg)
-
----
 
 ## Additional Tasks for Students
 
@@ -676,7 +628,55 @@ The design follows normalization principles while keeping it practical for a cus
    > ![Not_Null_Email_Or_Phone](images/queries/not_null_contact_info.jpg)
 
 
+---
+## Integration
 
+### Their stuff
+#### Their DSD
+> ![Their_DSD](images/theirs/their_dsd.jpg)
+
+#### Their ERD
+> ![Their_DSD](images/theirs/their_erd.jpg)
+
+
+### Integrated stuff
+
+#### Design Decisions
+
+Here's a short explanation of the ERD design decisions:
+
+**One-to-Many Relationships (Most Common):**
+- **Employee → Customer**: One employee manages multiple customers (realistic business scenario)
+- **Customer → Address/Contact/Documents**: Customers need multiple addresses (home, work), contact methods (phone, email), and documents (ID, passport)
+- **Employee → Position**: Employees have job history - current and past positions
+- **Department → Employee**: One department contains many employees (organizational hierarchy)
+
+**Many-to-One Relationships:**
+- **Employee → Department**: Multiple employees belong to one department (reporting structure)
+- **Customer → Employee**: Multiple customers assigned to one employee (workload distribution)
+
+**One-to-One Relationship:**
+- **Department → Manager**: Each department has exactly one manager (clear accountability)
+
+**Many-to-Many Relationship:**
+- **Customer ↔ Segment**: Customers can belong to multiple segments over time (VIP, Premium, etc.), and segments contain multiple customers. Used junction table CustomerSegmentAssignment to track when assignments happened.
+
+**Why This Design:**
+- Reflects real business relationships (employees manage customers, departments have hierarchies)
+- Prevents data redundancy (separate tables for addresses vs. storing in customer table)
+- Maintains data integrity with proper foreign keys
+- Supports historical tracking (position history, segment changes over time)
+
+The design follows normalization principles while keeping it practical for a customer-employee management system.
+
+
+#### Integrated DSD
+> ![Integrated_DSD](images/integrated/integrated_dsd.jpg)
+
+#### Integrated ERD
+> ![Integrated_ERD](images/integrated/integrated_erd.jpg)
+
+---
 
 
 ## 👇 Resources
