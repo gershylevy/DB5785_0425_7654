@@ -350,6 +350,16 @@ By the end of this workshop, you should be able to:
 - Work effectively with PostgreSQL inside a Docker container for development and testing.
 
 ---
+## Integration
+
+### Their stuff
+#### Their DSD
+> ![Their_DSD](images/theirs/their_dsd.jpg)
+
+#### Their ERD
+> ![Their_DSD](images/theirs/their_erd.jpg)
+
+---
 
 ## Additional Tasks for Students
 
