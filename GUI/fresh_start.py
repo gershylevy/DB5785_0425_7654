@@ -606,7 +606,7 @@ class CustomerDatabaseGUI:
                 SELECT a.addressID, a.customer_id, 
                        CONCAT(c.Customer_First_Name, ' ', c.Customer_Last_Name) as customer_name,
                        a.street_address, a.city_name, a.state, a.zip_code, 
-                       a.country, a.asress_type, a.is_primary
+                       a.country, a.address_type, a.is_primary
                 FROM Address a
                 JOIN Customer c ON a.customer_id = c.CustomerID
                 ORDER BY a.customer_id, a.addressID
@@ -640,7 +640,7 @@ class CustomerDatabaseGUI:
                 address_data = [new_id] + dialog.result
                 self.cursor.execute("""
                     INSERT INTO Address (addressID, customer_id, street_address, city_name, 
-                                       state, zip_code, country, asress_type, is_primary)
+                                       state, zip_code, country, address_type, is_primary)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """, address_data)
                 
@@ -672,7 +672,7 @@ class CustomerDatabaseGUI:
                 self.cursor.execute("""
                     UPDATE Address 
                     SET customer_id = %s, street_address = %s, city_name = %s,
-                        state = %s, zip_code = %s, country = %s, asress_type = %s, is_primary = %s
+                        state = %s, zip_code = %s, country = %s, address_type = %s, is_primary = %s
                     WHERE addressID = %s
                 """, dialog.result + [address_data[0]])
                 
