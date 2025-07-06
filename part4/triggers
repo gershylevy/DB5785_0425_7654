@@ -1,0 +1,47 @@
+-- ======================================
+-- TRIGGERS
+-- ======================================
+
+-- Trigger Function 1: Only one primary address per customer
+CREATE OR REPLACE FUNCTION check_primary_address()
+RETURNS TRIGGER AS $$
+DECLARE
+    existing_primary_count INT;
+BEGIN
+    IF NEW.is_primary THEN
+        SELECT COUNT(*) INTO existing_primary_count
+        FROM address
+        WHERE customer_id = NEW.customer_id AND is_primary = TRUE;
+
+        IF existing_primary_count > 0 THEN
+            RAISE EXCEPTION 'כבר קיימת כתובת ראשית ללקוח זה';
+        END IF;
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS trg_check_primary_address ON address;
+
+CREATE TRIGGER trg_check_primary_address
+BEFORE INSERT OR UPDATE ON address
+FOR EACH ROW
+EXECUTE FUNCTION check_primary_address();
+
+-- Trigger Function 2: Automatically mark notes with "urgent" as important
+CREATE OR REPLACE FUNCTION mark_important_note()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF POSITION('urgent' IN lower(NEW.note_text)) > 0 THEN
+        NEW.is_important := true;
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS trg_mark_important_note ON customernote;
+
+CREATE TRIGGER trg_mark_important_note
+BEFORE INSERT ON customernote
+FOR EACH ROW
+EXECUTE FUNCTION mark_important_note();
