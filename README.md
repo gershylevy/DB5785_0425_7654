@@ -705,6 +705,27 @@ The design follows normalization principles while keeping it practical for a cus
 
 ---
 
+## Part 5
+#### Add Costumer:
+> ![Add Costumer](images/part5/add_costumer.jpg)
+
+#### Costumer:
+> ![Costumer](images/part5/costumer.jpg)
+
+#### Delete Costumer:
+> ![Delete Costumer](images/part5/delete_costumer.jpg)
+
+
+#### Edit Costumer:
+> ![Edit Costumer](images/part5/edit_costumer.jpg)
+
+#### Login:
+> ![Login](images/part5/login.jpg)
+
+#### Queries:
+> ![Queries](images/part5/queries.jpg)
+
+
 
 ## 👇 Resources
 
