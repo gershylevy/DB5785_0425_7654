@@ -700,6 +700,10 @@ The design follows normalization principles while keeping it practical for a cus
 > ![view1](part3/query3.png)
 
 ---
+## Part 4
+> ![Part4](images/part4/part4Works.png)
+
+---
 
 
 ## 👇 Resources
