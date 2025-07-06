@@ -1,0 +1,47 @@
+-- ======================================
+-- FUNCTIONS
+-- ======================================
+
+-- Function 1: Returns a refcursor of customer's addresses
+CREATE OR REPLACE FUNCTION get_customer_addresses(p_customer_id INTEGER)
+RETURNS refcursor AS $$
+DECLARE
+    ref refcursor;
+BEGIN
+    OPEN ref FOR
+    SELECT * FROM address WHERE customer_id = p_customer_id;
+    RETURN ref;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Function 2: Check if customer is "fully verified"
+CREATE OR REPLACE FUNCTION check_customer_status(p_customer_id INTEGER)
+RETURNS TEXT AS $$
+DECLARE
+    has_address BOOLEAN;
+    has_contact BOOLEAN;
+    has_valid_document BOOLEAN;
+    result TEXT;
+BEGIN
+    SELECT EXISTS (
+        SELECT 1 FROM address WHERE customer_id = p_customer_id AND is_primary = true
+    ) INTO has_address;
+
+    SELECT EXISTS (
+        SELECT 1 FROM contact WHERE customer_id = p_customer_id AND is_primary = true
+    ) INTO has_contact;
+
+    SELECT EXISTS (
+        SELECT 1 FROM customerdocument 
+        WHERE customer_id = p_customer_id AND expiry_date > CURRENT_DATE AND verification_status = true
+    ) INTO has_valid_document;
+
+    IF has_address AND has_contact AND has_valid_document THEN
+        result := 'לקוח פעיל ומאומת';
+    ELSE
+        result := 'לקוח חסר מידע חשוב';
+    END IF;
+
+    RETURN result;
+END;
+$$ LANGUAGE plpgsql;
