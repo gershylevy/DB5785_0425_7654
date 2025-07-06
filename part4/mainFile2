@@ -1,0 +1,20 @@
+-- ======================================
+-- MAIN PROGRAM 2 (DO block): Call function + procedure with conditions
+-- ======================================
+
+DO $$
+DECLARE
+    status TEXT;
+BEGIN
+    -- Call function
+    status := check_customer_status(1); -- Change customer_id as needed
+    RAISE NOTICE 'סטטוס לקוח: %', status;
+
+    -- Call procedure
+    CALL assign_customer_segment(1, 2); -- Change IDs as needed
+END;
+$$;
+
+-- ======================================
+-- END OF SCRIPT
+-- ======================================
