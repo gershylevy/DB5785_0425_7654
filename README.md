@@ -695,6 +695,10 @@ The design follows normalization principles while keeping it practical for a cus
 #### Query 2
 > ![view1](part3/query2.png)
 
+
+#### Query 3
+> ![view1](part3/query3.png)
+
 ---
 
 
