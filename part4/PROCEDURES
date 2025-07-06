@@ -1,0 +1,38 @@
+-- ======================================
+-- PROCEDURES
+-- ======================================
+
+-- Procedure 1: Mark expired documents as unverified
+CREATE OR REPLACE PROCEDURE update_expired_documents()
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    UPDATE customerdocument
+    SET verification_status = false
+    WHERE expiry_date <= CURRENT_DATE;
+
+    RAISE NOTICE 'עודכנו כל המסמכים שפג תוקפם';
+END;
+$$;
+
+-- Procedure 2: Assign customer to a segment if they meet the required balance
+CREATE OR REPLACE PROCEDURE assign_customer_segment(p_customer_id INTEGER, p_segment_id INTEGER)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    min_balance NUMERIC;
+    customer_balance NUMERIC := 10000; -- Simulated value
+BEGIN
+    SELECT min_balance_required INTO min_balance
+    FROM customersegment
+    WHERE segment_id = p_segment_id;
+
+    IF customer_balance >= min_balance THEN
+        INSERT INTO customersegmentassignment(customer_id, segment_id, assigned_date)
+        VALUES (p_customer_id, p_segment_id, CURRENT_DATE);
+        RAISE NOTICE 'הלקוח הועבר לסגמנט בהצלחה';
+    ELSE
+        RAISE NOTICE 'הלקוח לא עומד בדרישות המינימום לסגמנט זה';
+    END IF;
+END;
+$$;
