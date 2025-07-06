@@ -1,0 +1,22 @@
+-- ======================================
+-- MAIN PROGRAM 1 (DO block): Call procedure + function with cursor
+-- ======================================
+
+DO $$
+DECLARE
+    cur refcursor;
+    addr RECORD;
+BEGIN
+    -- Call procedure
+    CALL update_expired_documents();
+
+    -- Call function and loop through cursor
+    cur := get_customer_addresses(1); -- Change customer_id as needed
+    LOOP
+        FETCH cur INTO addr;
+        EXIT WHEN NOT FOUND;
+        RAISE NOTICE 'Street: %, City: %', addr.street_address, addr.city_name;
+    END LOOP;
+    CLOSE cur;
+END;
+$$;
